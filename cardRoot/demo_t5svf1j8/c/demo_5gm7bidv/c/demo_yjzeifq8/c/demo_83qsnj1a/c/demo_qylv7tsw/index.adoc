@@ -1,0 +1,3 @@
+All outbound communication protocols shall be limited to what is necessary.
+
+All protocols shall be verified to behave correctly also in error cases, so that there are no excessive retries or other excessive communications

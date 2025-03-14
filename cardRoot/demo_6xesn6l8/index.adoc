@@ -1,0 +1,19 @@
+== Welcome to the Cyberismo Demo Project! 🚀
+
+This demo showcases the Cyberismo solution in action. Here’s what you can explore:
+
+🔹 Get Familiar with Secure Development – Dive into the structure of an IoT device development project and see how everything fits together.
+
+🔹 Test Automatic Progress Metrics – Mark a development task as not required using the *Review as not applicable* workflow transition, and watch the progress metric update instantly.
+
+🔹 Explore How Tasks Interconnect – Open xref:demo_2r2m785d.adoc[Document security context] and click View process diagram to visualize how tasks interconnect.
+
+🔹 Use the Awesome Modeling Tools – Check out the xref:demo_xet5mvu8.adoc[Threat model for IoT device] and tweak the data flow model — the diagrams update automatically based on component and data flow changes!
+
+🔹 Trace Risks to Weaknesses & Requirements – See how xref:demo_pfot2zzw.adoc[an example risk] links to xref:demo_s2rm9k2g.adoc[a weakness in the threat model] and a xref:demo_qylv7tsw.adoc[security requirement].
+
+🔹 Monitor Project Progress – Visit xref:demo_6xk31ver.adoc[Periodic reviews] for an overview of the project's status.
+
+🔹 Create a New Project – Click *Create* (top right) and start a new development project. Tip: Search for Start to quickly find the template.
+
+Jump in and explore—Cyberismo makes security-driven development seamless! 🚀🔐

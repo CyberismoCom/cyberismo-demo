@@ -1,0 +1,9 @@
+{
+    "title": "Security advisor",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Draft",
+    "rank": "0|e",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "links": []
+}

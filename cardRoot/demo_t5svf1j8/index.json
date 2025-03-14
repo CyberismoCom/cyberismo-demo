@@ -1,0 +1,21 @@
+{
+    "title": "IoT device",
+    "cardType": "secdeva/cardTypes/project",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/adoptionStep": "step3",
+    "secdeva/fieldTypes/adoptionStepJustification": "Let's use step 3 so we can see all available content",
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/assetCriticalityForOperations": "medium",
+    "ismsa/fieldTypes/assetType": null,
+    "ismsa/fieldTypes/assetPersonalInformation": null,
+    "ismsa/fieldTypes/assetIntegrity": null,
+    "ismsa/fieldTypes/assetAvailability": null,
+    "ismsa/fieldTypes/assetLocation": null,
+    "ismsa/fieldTypes/assetBackups": "This is just a demo, so it's enough to keep the demo repo in GitHub.",
+    "secdeva/fieldTypes/acceptableSeverity": "low",
+    "secdeva/fieldTypes/deferrableSeverity": "medium",
+    "links": [],
+    "lastUpdated": "2025-03-14T15:43:11.117Z"
+}
