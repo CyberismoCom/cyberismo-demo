@@ -3,19 +3,8 @@
     "cardType": "secdeva/cardTypes/process",
     "workflowState": "Draft",
     "rank": "0|c",
-    "lastUpdated": "2025-03-14T15:48:52.680Z",
-    "links": [
-        {
-            "linkType": "secdeva/linkTypes/dataflow",
-            "cardKey": "demo_nfs2ko2u",
-            "linkDescription": "Send data"
-        },
-        {
-            "linkType": "secdeva/linkTypes/dataflow",
-            "cardKey": "demo_lhia40qq",
-            "linkDescription": "Obtain process data [OPC UA]"
-        }
-    ],
+    "lastUpdated": "2025-03-16T17:26:38.314Z",
+    "links": [],
     "secdeva/fieldTypes/description": null,
     "secdeva/fieldTypes/technology": null
 }

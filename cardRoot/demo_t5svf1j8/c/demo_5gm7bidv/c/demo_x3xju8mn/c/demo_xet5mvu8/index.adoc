@@ -45,7 +45,8 @@ You can evaluate whether the DFD describes the system with sufficient detail by 
 
 {{#graph}}
   "model": "secdeva/graphModels/dataflow",
-  "view": "secdeva/graphViews/context"
+  "view": "secdeva/graphViews/context",
+  "show": ["demo_yvgrwede"]
 {{/graph}}
 
 === Detailed diagram
