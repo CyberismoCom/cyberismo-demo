@@ -1,10 +1,11 @@
 {
-    "title": "Welcome",
+    "title": "Welcome 🚀",
     "cardType": "base/cardTypes/page",
     "workflowState": "Draft",
     "base/fieldTypes/owner": null,
     "base/fieldTypes/informationClassification": "internal",
     "rank": "0|b",
-    "lastUpdated": "2025-03-14T16:15:28.545Z",
-    "links": []
+    "lastUpdated": "2025-03-16T17:05:28.811Z",
+    "links": [],
+    "lastTransitioned": "2025-03-16T17:05:28.811Z"
 }
