@@ -1,5 +1,5 @@
 {
-    "title": "Comprimising the availability of customer DCS",
+    "title": "Compromising the availability of customer DCS",
     "cardType": "ismsa/cardTypes/risk",
     "workflowState": "Open",
     "rank": "0|b",
@@ -11,5 +11,5 @@
     "ismsa/fieldTypes/riskResidualLikelihood": null,
     "ismsa/fieldTypes/riskResidualImpact": null,
     "links": [],
-    "lastUpdated": "2025-03-14T15:54:09.591Z"
+    "lastUpdated": "2025-03-17T10:51:16.818Z"
 }
