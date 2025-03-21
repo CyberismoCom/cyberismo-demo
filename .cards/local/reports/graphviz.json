@@ -1,0 +1,6 @@
+{
+    "name": "demo/reports/graphviz",
+    "displayName": "Graphviz",
+    "description": "Graphviz DOT rendering of a graph",
+    "category": "Cyberismo development"
+}

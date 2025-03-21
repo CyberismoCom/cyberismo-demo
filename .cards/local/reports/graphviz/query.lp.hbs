@@ -1,0 +1,100 @@
+{{#each include}}
+#include "{{this}}".
+{{/each}}
+
+viewAll.
+
+selectAll.
+
+result(result).
+
+% top-level graphs
+childResult(result, Graph, "digraphs") :-
+    graph(Graph).
+
+childResult(Graph, ((graph, Graph), Field), "attrs") :-
+    graph(Graph),
+    attr(graph, Graph, Field, _).
+
+field(((graph, Graph), Field), "attr", Field) :-
+    graph(Graph),
+    attr(graph, Graph, Field, _).
+
+field(((graph, Graph), Field), "value", Value) :-
+    graph(Graph),
+    attr(graph, Graph, Field, Value).
+
+% subgraphs
+childResult(Parent, Graph, "subgraphs") :-
+    graph(Graph, Parent).
+
+childResult(Graph, ((graph, Graph), Field), "attrs") :-
+    graph(Graph, _),
+    attr(graph, Graph, Field, _).
+
+field(((graph, Graph), Field), "attr", Field) :-
+    graph(Graph, _),
+    attr(graph, Graph, Field, _).
+
+field(((graph, Graph), Field), "value", Value) :-
+    graph(Graph, _),
+    attr(graph, Graph, Field, Value).
+
+% nodes
+
+% Uncomment this to blow up:
+childResult(Graph, (node, Node), "nodes") :-
+    childResult(_, Graph, _),
+    node(Node, Graph).
+
+field((node, Node), "cardKey", Node) :-
+    childResult(_, Graph, _),
+    node(Node, Graph).
+
+childResult((node, Node), ((node, Node), Field), "attrs") :-
+    node(Node, Graph),
+    attr(node, Node, Field, _).
+
+field(((node, Node), Field), "attr", Field) :-
+    node(Node, Graph),
+    attr(node, Node, Field, _).
+
+field(((node, Node), Field), "value", Value) :-
+    node(Node, Graph),
+    attr(node, Node, Field, Value).
+
+% edges
+childResult(Graph, (edge, (XR, YR, Description)), "edges") :-
+    childResult(_, Graph, _),
+    edge((XR, YR, Description), Graph).
+
+childResult((edge, (XR, YR, Description)), ((edge, (XR, YR, Description)), Field), "attrs") :-
+    childResult(_, (edge, (XR, YR, Description)), _),
+    attr(edge, (XR, YR, Description), Field, _).
+
+field(((edge, (XR, YR, Description)), Field), "attr", Field) :-
+    childResult(_, (edge, (XR, YR, Description)), _),
+    attr(edge, (XR, YR, Description), Field, Value).
+
+field(((edge, (XR, YR, Description)), Field), "value", Value) :-
+    childResult(_, (edge, (XR, YR, Description)), _),
+    attr(edge, (XR, YR, Description), Field, Value).
+
+field((edge, (XR, YR, Description)), "source", XR) :-
+    edge((XR, YR, Description), _).
+
+field((edge, (XR, YR, Description)), "destination", YR) :-
+    edge((XR, YR, Description), _).
+
+field(Card, "compoundRank", Rank) :-
+    card(Card),
+    not parent(Card, _),
+    field(Card, "rank", Rank).
+
+field(Card, "compoundRank", @concatenate(ParentRank, " - ", Rank)) :-
+    card(Card),
+    parent(Card, Parent),
+    field(Card, "rank", Rank),
+    field(Parent, "compoundRank", ParentRank).
+
+orderBy("compoundRank", "ASC").
