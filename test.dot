@@ -1,0 +1,28 @@
+digraph toplevelGraph {
+	graph [compound=true fontname=helvetica nodesep=2 pad=0.2 penwidth=3 ranksep=3]
+	demo_wz22mp0m [label=<<font point-size='32'> <b> User </b> </font> <br/> <font point-size='19'>[Person]</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle]
+	demo_nfs2ko2u [label=<<font point-size='32'> <b> Data platform </b> </font> <br/> <font point-size='19'>[External: AWS cloud]</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle]
+	demo_585nkw5q -> demo_mu0bbt9k [label=<<font point-size='24'>Manages configuration data</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_585nkw5q -> demo_yropur7j [label=<<font point-size='24'>Delivers web app to user&#x27;s<br/>browser</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_7s6siekw -> demo_yropur7j [label=<<font point-size='24'>Manages the IoT device<br/>configuration</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_qaggmrue -> demo_mu0bbt9k [label=<<font point-size='24'>Read configuration</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_qaggmrue -> demo_lhia40qq [label=<<font point-size='24'>Obtain process data [OPC<br/>UA]</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_yropur7j -> demo_585nkw5q [label=<<font point-size='24'>Makes API calls</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_wz22mp0m -> demo_nfs2ko2u [label=<<font point-size='24'>Uses IoT data and manages<br/>IoT devices</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	demo_qaggmrue -> demo_nfs2ko2u [label=<<font point-size='24'>Send data</font>> arrowsize=2 fontname=helvetica pendwidth=3]
+	subgraph cluster_demo_guo091ni {
+		graph [color="#aa0000" compound=true fontname=helvetica label=<<font point-size='24'> <b> Customer plant trust<br/>boundary </b> </font> <br/> <font point-size='19'>[Trust Boundary]</font>> labeljust=l labelloc=b margin=25 penwidth=3 shape=rectangle style=dashed]
+		demo_guo091ni [margin=0.4 penwidth=3 shape=point style=invis]
+		demo_7s6siekw [label=<<font point-size='32'> <b> Local engineer </b> </font> <br/> <font point-size='19'>[Person]</font> <br/><font point-size='22'>Configures IoT devices</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle]
+		demo_lhia40qq [label=<<font point-size='32'> <b> Distributed control system </b> </font> <br/> <font point-size='19'>[External]</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle]
+		demo_yropur7j [label=<<font point-size='32'> <b> IoT admin web frontend </b> </font> <br/> <font point-size='19'>[External]</font> <br/><font point-size='22'>Web app front end for IoT<br/>device administration</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle]
+		subgraph cluster_demo_yvgrwede {
+			graph [color="#000000" compound=true fontname=helvetica label=<<font point-size='24'> <b> IoT device </b> </font> <br/> <font point-size='19'>[Process]</font>> labeljust=l labelloc=b margin=25 penwidth=3 shape=rectangle style=rounded]
+			demo_yvgrwede [margin=0.4 penwidth=3 shape=point style=invis]
+			demo_585nkw5q [label=<<font point-size='32'> <b> Admin web app backend </b> </font> <br/> <font point-size='19'>[Process: node.js]</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle style=rounded]
+			demo_mu0bbt9k [label=<<font point-size='32'> <b> Configuration data </b> </font> <br/> <font point-size='19'>[Datastore: SQLite]</font> <br/><font point-size='22'>Stores IoT device<br/>configuration</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=cylinder]
+			demo_qaggmrue [label=<<font point-size='32'> <b> Runtime data handler </b> </font> <br/> <font point-size='19'>[Process]</font> <br/><font point-size='22'>Obtains data from the DCS<br/>and pushes it to the cloud<br/>data platform</font>> color="#000000" fontname=helvetica margin=0.4 penwidth=3 shape=rectangle style=rounded]
+		}
+	}
+}
+

@@ -1,0 +1,6 @@
+{{#report}}
+  "name": "demo/reports/graphviz",
+  "include": [
+    "/Users/henryhaverinen/cyberismo/cyberismo-demo/.cards/modules/secdeva/graphModels/dataflow/model.lp"
+  ]
+{{/report}}
