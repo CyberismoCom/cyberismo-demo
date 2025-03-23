@@ -1,12 +1,20 @@
+% include the model:
 {{#each include}}
 #include "{{this}}".
 {{/each}}
 
-viewAll.
+% include the view:
+viewAll(3).
 
 selectAll.
 
 result(result).
+
+% We need to format the label attributes without double quotes,
+% because labels already use HTML < and >, but we'll enclose other
+% attributes in double quotes, so here is a helper term to identify label attributes:
+labelAttribute("label").
+labelAttribute(label).
 
 % top-level graphs
 childResult(result, Graph, "digraphs") :-
@@ -22,11 +30,21 @@ field(((graph, Graph), Field), "attr", Field) :-
 
 field(((graph, Graph), Field), "value", Value) :-
     graph(Graph),
-    attr(graph, Graph, Field, Value).
+    attr(graph, Graph, Field, Value),
+    labelAttribute(Field).
+
+field(((graph, Graph), Field), "value", @concatenate("\"", Value, "\"")) :-
+    graph(Graph),
+    attr(graph, Graph, Field, Value),
+    not labelAttribute(Field).
 
 % subgraphs
-childResult(Parent, Graph, "subgraphs") :-
+childResult(Parent, Graph, "children") :-
     graph(Graph, Parent).
+
+field(Graph, "isGraph", "void") :-
+    childResult(_, Graph, "children"),
+    graph(Graph, _).
 
 childResult(Graph, ((graph, Graph), Field), "attrs") :-
     graph(Graph, _),
@@ -38,12 +56,23 @@ field(((graph, Graph), Field), "attr", Field) :-
 
 field(((graph, Graph), Field), "value", Value) :-
     graph(Graph, _),
-    attr(graph, Graph, Field, Value).
+    attr(graph, Graph, Field, Value),
+    labelAttribute(Field).
+
+field(((graph, Graph), Field), "value", @concatenate("\"", Value, "\"")) :-
+    graph(Graph, _),
+    attr(graph, Graph, Field, Value),
+    not labelAttribute(Field).
 
 % nodes
 
-% Uncomment this to blow up:
-childResult(Graph, (node, Node), "nodes") :-
+field((node, Node), "rank", Rank) :- field(Node, "rank", Rank), node(Node, _).
+
+field((node, Node), "isNode", "void") :-
+    childResult(_, (node, Node), "children"),
+    node(Node, _).
+
+childResult(Graph, (node, Node), "children") :-
     childResult(_, Graph, _),
     node(Node, Graph).
 
@@ -61,7 +90,13 @@ field(((node, Node), Field), "attr", Field) :-
 
 field(((node, Node), Field), "value", Value) :-
     node(Node, Graph),
-    attr(node, Node, Field, Value).
+    attr(node, Node, Field, Value),
+    labelAttribute(Field).
+
+field(((node, Node), Field), "value", @concatenate("\"", Value, "\"")) :-
+    node(Node, Graph),
+    attr(node, Node, Field, Value),
+    not labelAttribute(Field).
 
 % edges
 childResult(Graph, (edge, (XR, YR, Description)), "edges") :-
@@ -86,15 +121,4 @@ field((edge, (XR, YR, Description)), "source", XR) :-
 field((edge, (XR, YR, Description)), "destination", YR) :-
     edge((XR, YR, Description), _).
 
-field(Card, "compoundRank", Rank) :-
-    card(Card),
-    not parent(Card, _),
-    field(Card, "rank", Rank).
-
-field(Card, "compoundRank", @concatenate(ParentRank, " - ", Rank)) :-
-    card(Card),
-    parent(Card, Parent),
-    field(Card, "rank", Rank),
-    field(Parent, "compoundRank", ParentRank).
-
-orderBy("compoundRank", "ASC").
+order(N, Collection, 1, "rank", "ASC") :- resultLevel(_, N, Collection).

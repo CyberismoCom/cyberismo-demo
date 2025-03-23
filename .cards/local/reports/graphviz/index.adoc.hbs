@@ -1,25 +1,61 @@
+{{! These comments cause extra newlines to the output, but I left them to make the example more readable}}
 ....
 {{#each results}}
-
 {{#each digraphs}}
 digraph {{this.key}} {
 graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{#each nodes}}
-{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{/each}}
-
 {{#each edges}}
 {{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{/each}}
-{{#each subgraphs}}
-subgraph_cluster{{this.key}} {
+{{#each children}}
+{{#if this.isNode}}
+{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/if}}
+{{#if this.isGraph}}
+subgraph cluster{{this.key}} {
 graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{#each edges}}
 {{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{/each}}
+{{#each children}}
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#if this.isNode}}
+{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/if}}
+{{#if this.isGraph}}
+subgraph cluster{{this.key}} {
+graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#each children}}
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#if this.isNode}}
+{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/if}}
+{{#if this.isGraph}}
+subgraph cluster{{this.key}} {
+graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#each children}}
+{{! etc...}}
+{{/each}}{{! children}}
 }
-{{/each}}
+{{/if}}{{!this.isGraph}}
+{{/each}}{{! children}}
 }
-{{/each}}
-{{/each}}
+{{/if}}{{!this.isGraph}}
+{{/each}}{{! children}}
+}
+{{/if}}{{!this.isGraph}}
+{{/each}}{{! children}}
+}
+{{/each}}{{!digraphs}}
+{{/each}}{{!results}}
 ....

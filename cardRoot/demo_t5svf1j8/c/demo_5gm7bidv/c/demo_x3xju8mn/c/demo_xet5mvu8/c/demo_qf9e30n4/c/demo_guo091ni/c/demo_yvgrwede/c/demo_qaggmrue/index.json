@@ -3,7 +3,7 @@
     "cardType": "secdeva/cardTypes/process",
     "workflowState": "Draft",
     "rank": "0|e",
-    "lastUpdated": "2025-03-16T17:26:38.441Z",
+    "lastUpdated": "2025-03-22T16:03:56.407Z",
     "links": [
         {
             "linkType": "secdeva/linkTypes/dataflow",
@@ -18,7 +18,7 @@
         {
             "linkType": "secdeva/linkTypes/dataflow",
             "cardKey": "demo_lhia40qq",
-            "linkDescription": "Obtain process data [OPC UA]"
+            "linkDescription": ""
         }
     ],
     "secdeva/fieldTypes/description": "Obtains data from the DCS and pushes it to the cloud data platform",
