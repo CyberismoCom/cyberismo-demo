@@ -1,4 +1,22 @@
-{{! These comments cause extra newlines to the output, but I left them to make the example more readable}}
+{{#*inline "subgraph"}}
+subgraph cluster{{this.key}} {
+graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#each children}}
+{{#each edges}}
+{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/each}}
+{{#if this.isNode}}
+{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{/if}}
+{{#if this.isGraph}}
+{{> subgraph}}
+{{/if}}
+{{/each}}
+}
+{{/inline}}
 ....
 {{#each results}}
 {{#each digraphs}}
@@ -12,50 +30,10 @@ graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{/if}}
 {{#if this.isGraph}}
-subgraph cluster{{this.key}} {
-graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{#each edges}}
-{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{/each}}
-{{#each children}}
-{{#each edges}}
-{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{/each}}
-{{#if this.isNode}}
-{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+{{> subgraph}}
 {{/if}}
-{{#if this.isGraph}}
-subgraph cluster{{this.key}} {
-graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{#each edges}}
-{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{/each}}
-{{#each children}}
-{{#each edges}}
-{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
+}
 {{/each}}
-{{#if this.isNode}}
-{{this.cardKey}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{/if}}
-{{#if this.isGraph}}
-subgraph cluster{{this.key}} {
-graph [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
-{{#each edges}}
-{{this.[source]}} -> {{this.destination}} [{{#each attrs}}{{this.attr}}={{{this.value}}} {{/each}}]
 {{/each}}
-{{#each children}}
-{{! etc...}}
-{{/each}}{{! children}}
-}
-{{/if}}{{!this.isGraph}}
-{{/each}}{{! children}}
-}
-{{/if}}{{!this.isGraph}}
-{{/each}}{{! children}}
-}
-{{/if}}{{!this.isGraph}}
-{{/each}}{{! children}}
-}
-{{/each}}{{!digraphs}}
-{{/each}}{{!results}}
 ....

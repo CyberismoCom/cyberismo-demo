@@ -16,7 +16,7 @@ result(result).
 labelAttribute("label").
 labelAttribute(label).
 
-% top-level graphs
+% top-level graph
 childResult(result, Graph, "digraphs") :-
     graph(Graph).
 
@@ -65,6 +65,9 @@ field(((graph, Graph), Field), "value", @concatenate("\"", Value, "\"")) :-
     not labelAttribute(Field).
 
 % nodes
+
+% TODO: For some reason, we need to use (node, Node) instead of Node, or
+% the solving will not succeed
 
 field((node, Node), "rank", Rank) :- field(Node, "rank", Rank), node(Node, _).
 
