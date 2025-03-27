@@ -31,3 +31,7 @@ This demo environment includes the Cyberismo EU CRA module. Here's how you can t
 🔹 Manage Technical Security Requirements - Click the button *Add essential requirements from EU CRA module* in xref:demo_83qsnj1a.adoc[Security requirement specification for IoT device] to add placeholders for CRA essential requirements. Examine the new requirements and how they are linked to relevant secure development tasks automatically!
 
 🔹 Trace Compliance Requirements - Click the button *Add compliance requirements from EU CRA module* under xref:demo_ci1tzban.adoc[Compliance] to add compliance requirements directly from the EU Cyber Resilience Act.
+
+=== Give feedback 📢
+
+See https://docs.cyberismo.com/cards/docs_i13qzif0.html[Cyberismo documentation] for different ways to give feedback and to join the discussion.
