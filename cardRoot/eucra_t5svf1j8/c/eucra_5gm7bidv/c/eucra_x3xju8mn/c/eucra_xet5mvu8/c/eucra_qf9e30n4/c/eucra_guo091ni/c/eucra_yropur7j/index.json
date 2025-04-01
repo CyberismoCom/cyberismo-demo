@@ -1,0 +1,16 @@
+{
+    "title": "IoT admin web frontend",
+    "cardType": "secdeva/cardTypes/external",
+    "workflowState": "Draft",
+    "rank": "0|e",
+    "lastUpdated": "2025-03-16T17:29:33.838Z",
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "eucra_585nkw5q",
+            "linkDescription": "Makes API calls"
+        }
+    ],
+    "secdeva/fieldTypes/description": "Web app front end for IoT device administration",
+    "secdeva/fieldTypes/technology": null
+}
