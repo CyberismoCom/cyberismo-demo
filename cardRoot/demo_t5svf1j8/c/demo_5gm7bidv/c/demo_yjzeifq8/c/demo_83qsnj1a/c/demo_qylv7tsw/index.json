@@ -1,0 +1,16 @@
+{
+    "title": "Limit outbound communications",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_security_requirement",
+    "links": [
+        {
+            "linkType": "ismsa/linkTypes/mitigates",
+            "cardKey": "demo_pfot2zzw"
+        }
+    ],
+    "lastUpdated": "2025-03-14T15:58:54.657Z"
+}
