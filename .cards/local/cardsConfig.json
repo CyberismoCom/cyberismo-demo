@@ -1,4 +1,22 @@
 {
     "cardKeyPrefix": "demo",
-    "name": "Cyberismo demo"
+    "name": "Cyberismo demo",
+    "modules": [
+	{
+		"name": "base",
+		"location": "https://github.com/CyberismoCom/module-base.git"
+	},
+	{
+		"name": "eucra",
+                "location": "https://github.com/CyberismoCom/module-eu-cra.git"
+	},
+	{
+		"name": "ismsa",
+                "location": "https://github.com/CyberismoCom/module-isms-essentials.git"
+	},
+	{
+		"name": "secdeva",
+                "location": "https://github.com/CyberismoCom/module-secure-development-essentials.git"
+	}
+    ]
 }
