@@ -1,7 +1,11 @@
 base_greaterAdoptionStep(Card1, Card2) :-
     field(Card1, "base/fieldTypes/adoptionStep", "step1"),
     card(Card2),
-    not field(Card2, "base/fieldTypes/adoptionStep", _).
+    not field(Card2, "base/fieldTypes/adoptionStep", _),
+    not template(Ancestor1) :
+    ancestor(Card1, Ancestor1) ;
+    not template(Ancestor2) :
+    ancestor(Card2, Ancestor2).
 
 base_greaterAdoptionStep(Card1, Card2) :-
     field(Card1, "base/fieldTypes/adoptionStep", "step2"),
