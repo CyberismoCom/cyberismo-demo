@@ -1,0 +1,11 @@
+{
+    "title": "Graphviz test",
+    "cardType": "base/cardTypes/page",
+    "workflowState": "Draft",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "rank": "0|d",
+    "lastUpdated": "2025-03-21T15:45:15.057Z",
+    "links": [],
+    "templateCardKey": "base_2"
+}
