@@ -1,0 +1,15 @@
+{
+    "title": "User",
+    "cardType": "secdeva/cardTypes/person",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "secdeva/fieldTypes/description": null,
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_nfs2ko2u",
+            "linkDescription": "Uses IoT data and manages IoT devices"
+        }
+    ],
+    "lastUpdated": "2025-05-26T14:55:50.495Z"
+}

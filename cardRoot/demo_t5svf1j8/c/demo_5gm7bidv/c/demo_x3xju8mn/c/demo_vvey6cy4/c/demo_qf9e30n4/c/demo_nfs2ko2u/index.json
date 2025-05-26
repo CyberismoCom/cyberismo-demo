@@ -1,0 +1,10 @@
+{
+    "title": "Data platform",
+    "cardType": "secdeva/cardTypes/external",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "lastUpdated": "2025-05-26T14:55:59.300Z",
+    "links": [],
+    "secdeva/fieldTypes/description": null,
+    "secdeva/fieldTypes/technology": "AWS cloud"
+}

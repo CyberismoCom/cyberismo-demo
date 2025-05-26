@@ -1,0 +1,26 @@
+{
+    "title": "Runtime data handler",
+    "cardType": "secdeva/cardTypes/process",
+    "workflowState": "Draft",
+    "rank": "0|e",
+    "lastUpdated": "2025-05-26T14:55:23.667Z",
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_mu0bbt9k",
+            "linkDescription": "Read configuration"
+        },
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_nfs2ko2u",
+            "linkDescription": "Send data"
+        },
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_lhia40qq",
+            "linkDescription": "Obtain process data [OPC UA]"
+        }
+    ],
+    "secdeva/fieldTypes/description": "Obtains data from the DCS and pushes it to the cloud data platform",
+    "secdeva/fieldTypes/technology": null
+}

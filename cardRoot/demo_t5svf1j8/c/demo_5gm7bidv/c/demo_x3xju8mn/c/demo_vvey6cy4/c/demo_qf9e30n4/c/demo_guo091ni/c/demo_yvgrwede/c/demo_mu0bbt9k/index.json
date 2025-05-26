@@ -1,0 +1,10 @@
+{
+    "title": "Configuration data",
+    "cardType": "secdeva/cardTypes/dataStore",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "lastUpdated": "2025-05-26T14:55:02.223Z",
+    "links": [],
+    "secdeva/fieldTypes/description": "Stores IoT device configuration",
+    "secdeva/fieldTypes/technology": "SQLite"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "IoT device",
+    "cardType": "secdeva/cardTypes/process",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "lastUpdated": "2025-05-26T14:54:47.430Z",
+    "links": [
+        {
+            "linkType": "ismsa/linkTypes/presentsRisk",
+            "cardKey": "demo_s2rm9k2g"
+        }
+    ],
+    "secdeva/fieldTypes/description": null,
+    "secdeva/fieldTypes/technology": null
+}

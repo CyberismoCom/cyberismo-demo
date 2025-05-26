@@ -1,7 +1,7 @@
 {
     "title": "Document review - Threat model",
     "cardType": "base/cardTypes/reviewTask",
-    "workflowState": "",
+    "workflowState": "Open",
     "rank": "0|a",
     "base/fieldTypes/owner": null,
     "base/fieldTypes/informationClassification": "internal",
@@ -9,5 +9,8 @@
     "base/fieldTypes/lastReviewed": null,
     "base/fieldTypes/justification": null,
     "base/fieldTypes/adoptionStep": null,
-    "base/fieldTypes/identifier": null
+    "base/fieldTypes/identifier": null,
+    "links": [],
+    "templateCardKey": "secdeva_mn9wi155",
+    "lastUpdated": "2025-05-26T14:35:17.977Z"
 }
