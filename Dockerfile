@@ -4,4 +4,4 @@ FROM cyberismo/cyberismo:latest
 COPY . /project
 
 # Run the cyberismo app
-CMD ["cyberismo", "app"]
+ENTRYPOINT ["cyberismo", "app"]
