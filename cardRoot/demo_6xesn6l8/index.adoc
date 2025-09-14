@@ -6,9 +6,11 @@ This demo showcases the Cyberismo solution in action.
 
 Here’s what you can explore:
 
-🔹 *Get Familiar with Secure Development.* Dive into the structure of an IoT device development project and see how everything fits together.
+🔹 *Get Familiar with Secure Development.* Dive into the structure of an IoT device development project and see how everything fits together. 
 
 🔹 *Test Automatic Progress Metrics.* Mark a development task as not required using the *Review as not applicable* workflow transition, and watch the progress metric update instantly.
+
+🔹 *Adopt secure development gradually*. Change to a higher *Target adoption step* on xref:demo_t5svf1j8.adoc[IoT device] to see more tasks. Notice how the progress metrics update automatically.
 
 🔹 *Explore How Tasks Interconnect.* Open xref:demo_2r2m785d.adoc[Document security context] and click *View process diagram* to visualize how tasks interconnect.
 

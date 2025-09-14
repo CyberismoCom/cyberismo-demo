@@ -4,8 +4,8 @@
     "workflowState": "Draft",
     "rank": "0|c",
     "base/fieldTypes/owner": null,
-    "base/fieldTypes/adoptionStep": "step3",
-    "secdeva/fieldTypes/adoptionStepJustification": "Let's use step 3 so we can see all available content",
+    "base/fieldTypes/adoptionStep": "step1",
+    "secdeva/fieldTypes/adoptionStepJustification": null,
     "base/fieldTypes/informationClassification": "internal",
     "ismsa/fieldTypes/assetCriticalityForOperations": "medium",
     "ismsa/fieldTypes/assetType": null,
@@ -17,5 +17,5 @@
     "secdeva/fieldTypes/acceptableSeverity": "low",
     "secdeva/fieldTypes/deferrableSeverity": "medium",
     "links": [],
-    "lastUpdated": "2025-03-14T15:43:11.117Z"
+    "lastUpdated": "2025-09-14T18:41:42.267Z"
 }
