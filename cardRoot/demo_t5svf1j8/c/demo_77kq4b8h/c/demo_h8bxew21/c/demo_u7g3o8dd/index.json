@@ -1,9 +1,0 @@
-{
-    "title": "Architect",
-    "cardType": "base/cardTypes/roleAssignment",
-    "workflowState": "Draft",
-    "rank": "0|b",
-    "base/fieldTypes/owner": null,
-    "base/fieldTypes/informationClassification": "internal",
-    "links": []
-}

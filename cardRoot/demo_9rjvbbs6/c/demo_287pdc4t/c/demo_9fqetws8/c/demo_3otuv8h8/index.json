@@ -1,0 +1,11 @@
+{
+    "title": "Product responsible",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Draft",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "templateCardKey": "secdeva_2tocf4tm",
+    "lastUpdated": "2025-09-16T17:30:17.701Z"
+}

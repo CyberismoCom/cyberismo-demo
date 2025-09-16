@@ -1,0 +1,13 @@
+{
+    "title": "Foundation",
+    "cardType": "secdeva/cardTypes/page",
+    "workflowState": "None",
+    "rank": "0|b",
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "lastUpdated": "2025-09-16T17:30:17.697Z",
+    "base/fieldTypes/identifier": "secdeva_phase_foundation",
+    "templateCardKey": "secdeva_4flg427z"
+}

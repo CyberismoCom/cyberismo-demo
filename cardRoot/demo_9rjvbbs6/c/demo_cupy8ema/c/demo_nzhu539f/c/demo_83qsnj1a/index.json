@@ -1,0 +1,13 @@
+{
+    "cardType": "base/cardTypes/controlledDocument",
+    "title": "Security requirement specification for IoT device",
+    "workflowState": "Draft",
+    "rank": "0|a",
+    "lastUpdated": "2025-09-16T17:33:42.752Z",
+    "links": [],
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/approver": null,
+    "base/fieldTypes/approvalDate": null,
+    "base/fieldTypes/identifier": "secdeva_document_security-requirement-specification"
+}

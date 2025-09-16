@@ -1,0 +1,11 @@
+{
+    "title": "Compliance",
+    "cardType": "secdeva/cardTypes/page",
+    "workflowState": "None",
+    "rank": "0|b",
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/identifier": "secdeva_phase_compliance",
+    "links": [],
+    "templateCardKey": "secdeva_mq87axkh",
+    "lastUpdated": "2025-09-16T17:30:17.697Z"
+}
