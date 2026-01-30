@@ -2,6 +2,8 @@
 
 This demo showcases the Cyberismo solution in action.
 
+video::1073088972/23188be798[vimeo]
+
 === Secure development 🔐
 
 Here’s what you can explore:
