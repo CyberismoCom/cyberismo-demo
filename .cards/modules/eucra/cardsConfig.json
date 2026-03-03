@@ -1,18 +1,21 @@
 {
+    "schemaVersion": 2,
     "cardKeyPrefix": "eucra",
     "name": "EU Cyber Resilience Act",
+    "description": "",
     "modules": [
-	{
-		"name": "base",
-		"location": "https://github.com/CyberismoCom/module-base.git"
-	},
-	{
-		"name": "ismsa",
-		"location": "https://github.com/CyberismoCom/module-isms-essentials.git"
-	},
-	{
-		"name": "secdeva",
-		"location": "https://github.com/CyberismoCom/module-secure-development-essentials.git"
-	}
-    ]
+        {
+            "name": "base",
+            "location": "https://github.com/CyberismoCom/module-base.git"
+        },
+        {
+            "name": "ismsa",
+            "location": "https://github.com/CyberismoCom/module-isms-essentials.git"
+        },
+        {
+            "name": "secdeva",
+            "location": "https://github.com/CyberismoCom/module-secure-development-essentials.git"
+        }
+    ],
+    "hubs": []
 }
