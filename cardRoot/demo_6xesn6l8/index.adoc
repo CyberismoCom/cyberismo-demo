@@ -1,41 +1,41 @@
-== Welcome to the Cyberismo Demo Project! 🚀
+== Welcome to the Cyberismo Demo Project!
 
 This demo showcases the Cyberismo solution in action.
 
 video::1073088972/23188be798[vimeo]
 
-=== Secure development 🔐
+=== Secure development
 
 Here’s what you can explore:
 
-🔹 *Get Familiar with Secure Development.* Dive into the structure of an IoT device development project and see how everything fits together. 
+*Get Familiar with Secure Development.* Dive into the structure of an IoT device development project and see how everything fits together. 
 
-🔹 *Test Automatic Progress Metrics.* Mark a development task as not required using the *Review as not applicable* workflow transition, and watch the progress metric update instantly. Notice how the tool will require you to enter a justification before this transition can be executed. 
+*Test Automatic Progress Metrics.* Mark a development task as not required using the *Review as not applicable* workflow transition, and watch the progress metric update instantly. Notice how the tool will require you to enter a justification before this transition can be executed. 
 
-🔹 *Adopt secure development gradually*. The secure development essentials content module groups secure development tasks into three adoption steps for easier gradual adoption. Change to a higher *Target adoption step* on xref:demo_9rjvbbs6.adoc[IoT device] to see more tasks appear in the navigation. Notice how the progress metrics update automatically.
+*Adopt secure development gradually*. The secure development essentials content module groups secure development tasks into three adoption steps for easier gradual adoption. Change to a higher *Target adoption step* on xref:demo_9rjvbbs6.adoc[IoT device] to see more tasks appear in the navigation. Notice how the progress metrics update automatically.
 
-🔹 *Explore How Tasks Interconnect.* Open xref:demo_77von8m0.adoc[Document security context] and click *View process diagram* to visualize how tasks interconnect.
+*Explore How Tasks Interconnect.* Open xref:demo_77von8m0.adoc[Document security context] and click *View process diagram* to visualize how tasks interconnect.
 
-🔹 *Use the Awesome Modeling Tools.* Check out the xref:demo_vvey6cy4.adoc[Threat model for IoT device] and tweak the data flow model — the diagrams update automatically based on component and data flow changes!
+*Use the Awesome Modeling Tools.* Check out the xref:demo_vvey6cy4.adoc[Threat model for IoT device] and tweak the data flow model — the diagrams update automatically based on component and data flow changes!
 
-🔹 *Trace Risks to Weaknesses & Requirements.* See how xref:demo_pfot2zzw.adoc[an example risk] links to xref:demo_s2rm9k2g.adoc[a weakness in the threat model] and a xref:demo_qylv7tsw.adoc[security requirement].
+*Trace Risks to Weaknesses & Requirements.* See how xref:demo_pfot2zzw.adoc[an example risk] links to xref:demo_s2rm9k2g.adoc[a weakness in the threat model] and a xref:demo_qylv7tsw.adoc[security requirement].
 
-🔹 *Monitor Project Progress.* Visit xref:demo_d57mc9ut.adoc[Periodic reviews] for an overview of the project's status.
+*Monitor Project Progress.* Visit xref:demo_d57mc9ut.adoc[Periodic reviews] for an overview of the project's status.
 
-🔹 *Create a New Project.* Click *Create* (top right) and start a new development project. Tip: Search for Start to quickly find the template.
+*Create a New Project.* Click *Create* (top right) and start a new development project. Tip: Search for Start to quickly find the template.
 
 Jump in and explore. Cyberismo makes security-driven development seamless!
 
-=== EU Cyber Resilience Act 🇪🇺
+=== EU Cyber Resilience Act
 
 This demo environment includes the Cyberismo EU CRA module that includes tasks and templates for development teams of product manufacturers.
 
-🔹 *Secure Development Tasks for EU CRA Compliance.* Tasks from the EU CRA module have been already added under the Design, Implementation, Verification, and Releases cards.
+*Secure Development Tasks for EU CRA Compliance.* Tasks from the EU CRA module have been already added under the Design, Implementation, Verification, and Releases cards.
 
-🔹 *Manage Technical Security Requirements.* Click the button *Add essential requirements from EU CRA module* in xref:demo_83qsnj1a.adoc[Security requirement specification for IoT device] to add placeholders for CRA essential requirements. Examine the new requirements and how they are linked to relevant secure development tasks automatically!
+*Manage Technical Security Requirements.* Click the button *Add essential requirements from EU CRA module* in xref:demo_83qsnj1a.adoc[Security requirement specification for IoT device] to add placeholders for CRA essential requirements. Examine the new requirements and how they are linked to relevant secure development tasks automatically!
 
-🔹 *Trace Compliance Requirements.* Click the button *Add compliance requirements from EU CRA module* under xref:demo_xv3mwohi.adoc[Compliance] to add compliance requirements directly from the EU Cyber Resilience Act.
+*Trace Compliance Requirements.* Click the button *Add compliance requirements from EU CRA module* under xref:demo_xv3mwohi.adoc[Compliance] to add compliance requirements directly from the EU Cyber Resilience Act.
 
-=== Give feedback 📢
+=== Give feedback
 
 See https://docs.cyberismo.com/cards/docs_i13qzif0.html[Cyberismo documentation] for different ways to give feedback and to join the discussion.
