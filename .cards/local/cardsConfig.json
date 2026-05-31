@@ -2,7 +2,7 @@
     "schemaVersion": 4,
     "cardKeyPrefix": "demo",
     "name": "Cyberismo demo",
-    "description": "",
+    "description": "An interactive Cyberismo demo environment",
     "modules": [
         {
             "name": "base",
