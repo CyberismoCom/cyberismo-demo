@@ -1,0 +1,18 @@
+{
+    "cardType": "ismsa/cardTypes/internalControl",
+    "title": "Manage 3rd party software updates",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-03T19:27:51.071Z",
+    "links": [],
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "august",
+    "base/fieldTypes/lastReviewed": null,
+    "base/fieldTypes/identifier": "secdeva_control_software-update-management",
+    "templateCardKey": "secdeva_1014",
+    "createdAt": "2026-08-03T19:27:51.062Z"
+}
