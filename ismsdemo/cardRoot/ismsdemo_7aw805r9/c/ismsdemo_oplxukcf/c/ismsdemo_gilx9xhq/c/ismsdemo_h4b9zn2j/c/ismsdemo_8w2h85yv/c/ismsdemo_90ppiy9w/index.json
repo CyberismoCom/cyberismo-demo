@@ -1,0 +1,17 @@
+{
+    "title": "Leaking confidential information from device",
+    "cardType": "ismsa/cardTypes/risk",
+    "workflowState": "Open",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/riskInitialLikelihood": null,
+    "ismsa/fieldTypes/riskInitialImpact": null,
+    "ismsa/fieldTypes/riskMitigationStrategy": null,
+    "ismsa/fieldTypes/riskResidualLikelihood": null,
+    "ismsa/fieldTypes/riskResidualImpact": null,
+    "links": [],
+    "lastUpdated": "2026-08-03T11:17:55.032Z",
+    "templateCardKey": "ismsa_3bsxrmma",
+    "createdAt": "2026-08-03T11:17:55.011Z"
+}

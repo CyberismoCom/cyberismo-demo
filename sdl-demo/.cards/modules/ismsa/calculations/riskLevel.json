@@ -1,0 +1,5 @@
+{
+    "name": "ismsa/calculations/riskLevel",
+    "displayName": "Risk level",
+    "description": "Calculates initial and residual risk levels from impact and likelihood"
+}

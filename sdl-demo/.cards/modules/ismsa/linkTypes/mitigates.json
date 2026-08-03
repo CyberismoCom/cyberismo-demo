@@ -1,0 +1,20 @@
+{
+    "name": "ismsa/linkTypes/mitigates",
+    "outboundDisplayName": "mitigates",
+    "inboundDisplayName": "is mitigated by",
+    "sourceCardTypes": [
+        "ismsa/cardTypes/control",
+        "base/cardTypes/monthlyTask",
+        "base/cardTypes/quarterlyTask",
+        "base/cardTypes/annualTask",
+        "secdeva/cardTypes/requirement",
+        "base/cardTypes/task"
+    ],
+    "destinationCardTypes": [
+        "ismsa/cardTypes/risk",
+        "secdeva/cardTypes/securityIssue"
+    ],
+    "enableLinkDescription": false,
+    "displayName": "Mitigates",
+    "description": "Links a control or task to the risk it mitigates"
+}

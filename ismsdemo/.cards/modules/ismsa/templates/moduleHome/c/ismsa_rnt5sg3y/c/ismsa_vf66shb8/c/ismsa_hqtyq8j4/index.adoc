@@ -1,0 +1,18 @@
+## Company security reviews
+
+Security reviews are held at least quarterly. Create a separate subregister for each yearly review.
+
+{{#createCards}}
+  "template": "ismsa/templates/yearlyReviews",
+  "buttonLabel": "Create register for security reviews"
+{{/createCards}}
+
+{{#report}}
+  "name": "ismsa/reports/installExtension"
+{{/report}}
+
+== Yearly reviews
+
+{{#report}}
+  "name": "base/reports/childrenList"
+{{/report}}

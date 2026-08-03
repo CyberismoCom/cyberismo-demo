@@ -1,0 +1,56 @@
+{
+    "name": "ismsa/cardTypes/risk",
+    "workflow": "ismsa/workflows/risk",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskInitialLikelihood",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskInitialImpact",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskInitialRisk",
+            "isCalculated": true
+        },
+        {
+            "name": "ismsa/fieldTypes/riskMitigationStrategy",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskResidualLikelihood",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskResidualImpact",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/riskResidualRisk",
+            "isCalculated": true
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "ismsa/fieldTypes/riskInitialLikelihood",
+        "ismsa/fieldTypes/riskInitialImpact",
+        "ismsa/fieldTypes/riskInitialRisk",
+        "ismsa/fieldTypes/riskMitigationStrategy",
+        "ismsa/fieldTypes/riskResidualLikelihood",
+        "ismsa/fieldTypes/riskResidualImpact",
+        "ismsa/fieldTypes/riskResidualRisk"
+    ],
+    "optionallyVisibleFields": [],
+    "displayName": "Risk",
+    "description": "A cybersecurity risk with impact, likelihood, and treatment tracking"
+}

@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 5,
+    "cardKeyPrefix": "demo",
+    "name": "Secure development demo",
+    "description": "A demo of managing secure development",
+    "modules": [
+        {
+            "name": "base",
+            "location": "https://github.com/CyberismoCom/module-base.git",
+            "private": false
+        },
+        {
+            "name": "eucra",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-eu-cra",
+            "private": false
+        },
+        {
+            "name": "ismsa",
+            "location": "https://github.com/CyberismoCom/module-isms-essentials.git",
+            "private": false
+        },
+        {
+            "name": "secdeva",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-secure-development-essentials",
+            "private": false
+        }
+    ],
+    "hubs": []
+}

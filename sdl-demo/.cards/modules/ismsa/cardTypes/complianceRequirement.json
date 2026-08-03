@@ -1,0 +1,47 @@
+{
+    "name": "ismsa/cardTypes/complianceRequirement",
+    "workflow": "ismsa/workflows/complianceRequirement",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/adoptionStep",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/identifier",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/requirementImplementationStrategy",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/requirementOrigin",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/justification",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "ismsa/fieldTypes/requirementImplementationStrategy"
+    ],
+    "optionallyVisibleFields": [
+        "base/fieldTypes/justification",
+        "ismsa/fieldTypes/requirementOrigin",
+        "base/fieldTypes/informationClassification",
+        "base/fieldTypes/adoptionStep",
+        "base/fieldTypes/identifier"
+    ],
+    "displayName": "Compliance requirement",
+    "description": "An external compliance requirement from regulations or standards"
+}

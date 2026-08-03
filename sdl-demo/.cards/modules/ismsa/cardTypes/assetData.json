@@ -1,0 +1,56 @@
+{
+    "name": "ismsa/cardTypes/assetData",
+    "workflow": "ismsa/workflows/asset",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetAvailability",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetBackups",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetCriticalityForOperations",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetIntegrity",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetLocation",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetPersonalInformation",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetRiskEvaluationNeeded",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "ismsa/fieldTypes/assetIntegrity",
+        "ismsa/fieldTypes/assetAvailability",
+        "ismsa/fieldTypes/assetPersonalInformation",
+        "ismsa/fieldTypes/assetCriticalityForOperations",
+        "ismsa/fieldTypes/assetLocation",
+        "ismsa/fieldTypes/assetBackups",
+        "ismsa/fieldTypes/assetRiskEvaluationNeeded"
+    ],
+    "optionallyVisibleFields": [],
+    "displayName": "Data asset",
+    "description": "A data collection asset that needs protection"
+}

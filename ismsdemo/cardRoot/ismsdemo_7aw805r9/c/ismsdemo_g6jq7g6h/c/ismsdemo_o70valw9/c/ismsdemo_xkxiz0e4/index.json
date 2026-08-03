@@ -1,0 +1,12 @@
+{
+    "title": "Repeating tasks",
+    "cardType": "base/cardTypes/page",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "templateCardKey": "ismsa_sa4r3ir1",
+    "createdAt": "2026-08-03T11:17:55.009Z",
+    "lastUpdated": "2026-08-03T11:17:55.023Z"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "ismsa/calculations/assetControl",
+    "displayName": "Asset control",
+    "description": "Defines asset types and enforces required fields for assets"
+}

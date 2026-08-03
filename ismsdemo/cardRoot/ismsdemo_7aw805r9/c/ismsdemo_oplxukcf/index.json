@@ -1,0 +1,16 @@
+{
+    "title": "Asset register",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "ismsa_register_assets",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": "asset-progress",
+    "labels": [],
+    "links": [],
+    "lastUpdated": "2026-08-03T11:17:55.014Z",
+    "templateCardKey": "ismsa_8m9b33lq",
+    "createdAt": "2026-08-03T11:17:55.008Z"
+}

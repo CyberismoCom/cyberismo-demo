@@ -1,0 +1,6 @@
+{
+    "displayName": "Add ISO27001 Control Register",
+    "description": "Show a button to add an ISO27001 control register ",
+    "category": "Register management",
+    "name": "ismsa/reports/addControlRegisterISO"
+}

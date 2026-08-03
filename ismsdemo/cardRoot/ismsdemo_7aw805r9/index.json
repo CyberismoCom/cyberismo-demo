@@ -1,0 +1,13 @@
+{
+    "title": "ISMS home for IoT Company",
+    "cardType": "ismsa/cardTypes/moduleHome",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "links": [],
+    "lastUpdated": "2026-08-03T11:18:04.046Z",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "templateCardKey": "ismsa_rnt5sg3y",
+    "createdAt": "2026-08-03T11:17:55.008Z"
+}

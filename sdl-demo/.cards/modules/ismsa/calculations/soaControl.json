@@ -1,0 +1,5 @@
+{
+    "name": "ismsa/calculations/soaControl",
+    "displayName": "SoA control",
+    "description": "Enforces approval rules and required fields for the Statement of Applicability"
+}

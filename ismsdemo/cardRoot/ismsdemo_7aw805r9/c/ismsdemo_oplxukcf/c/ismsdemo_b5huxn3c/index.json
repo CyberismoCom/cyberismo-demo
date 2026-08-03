@@ -1,0 +1,15 @@
+{
+    "title": "Suppliers",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|c",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "ismsa_register_suppliers",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": null,
+    "links": [],
+    "templateCardKey": "ismsa_yas6yiie",
+    "createdAt": "2026-08-03T11:17:55.011Z",
+    "lastUpdated": "2026-08-03T11:17:55.018Z"
+}

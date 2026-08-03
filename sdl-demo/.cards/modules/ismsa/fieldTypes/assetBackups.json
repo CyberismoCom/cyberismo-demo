@@ -1,0 +1,6 @@
+{
+    "name": "ismsa/fieldTypes/assetBackups",
+    "displayName": "Backups",
+    "dataType": "longText",
+    "description": "How the data related to this asset is backed up"
+}

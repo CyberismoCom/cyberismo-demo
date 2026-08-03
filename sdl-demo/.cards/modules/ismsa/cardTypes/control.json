@@ -1,0 +1,42 @@
+{
+    "name": "ismsa/cardTypes/control",
+    "workflow": "ismsa/workflows/control",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/controlStatus",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/controlJustification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/controlSummary",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/controlOrigin",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "ismsa/fieldTypes/controlStatus",
+        "ismsa/fieldTypes/controlJustification",
+        "ismsa/fieldTypes/controlSummary"
+    ],
+    "optionallyVisibleFields": [
+        "ismsa/fieldTypes/controlOrigin"
+    ],
+    "displayName": "Control",
+    "description": "A cybersecurity control or mitigation measure"
+}

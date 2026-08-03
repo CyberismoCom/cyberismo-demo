@@ -1,0 +1,16 @@
+{
+    "title": "Process register",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "ismsa_register_processes",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": "process-progress",
+    "labels": [],
+    "links": [],
+    "lastUpdated": "2026-08-03T11:17:55.015Z",
+    "templateCardKey": "ismsa_r6cncsw7",
+    "createdAt": "2026-08-03T11:17:55.008Z"
+}

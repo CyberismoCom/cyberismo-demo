@@ -1,0 +1,15 @@
+{
+    "title": "Information Systems",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|ba",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": null,
+    "base/fieldTypes/identifier": null,
+    "links": [],
+    "templateCardKey": "ismsa_766pk70s",
+    "createdAt": "2026-08-03T11:17:55.011Z",
+    "lastUpdated": "2026-08-03T11:17:55.022Z"
+}

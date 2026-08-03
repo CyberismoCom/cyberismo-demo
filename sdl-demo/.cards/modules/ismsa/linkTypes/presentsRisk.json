@@ -1,0 +1,28 @@
+{
+    "name": "ismsa/linkTypes/presentsRisk",
+    "outboundDisplayName": "presents risk",
+    "inboundDisplayName": "affects asset",
+    "sourceCardTypes": [
+        "ismsa/cardTypes/asset",
+        "ismsa/cardTypes/assetData",
+        "ismsa/cardTypes/assetDevice",
+        "ismsa/cardTypes/assetInformationSystem",
+        "ismsa/cardTypes/assetSupplier",
+        "secdeva/cardTypes/project",
+        "secdeva/cardTypes/project2",
+        "secdeva/cardTypes/threatModel",
+        "secdeva/cardTypes/process",
+        "secdeva/cardTypes/dataStore",
+        "secdeva/cardTypes/external",
+        "secdeva/cardTypes/person",
+        "secdeva/cardTypes/trustBoundary",
+        "secdeva/cardTypes/interface"
+    ],
+    "destinationCardTypes": [
+        "ismsa/cardTypes/risk",
+        "secdeva/cardTypes/securityIssue"
+    ],
+    "enableLinkDescription": false,
+    "displayName": "Presents risk",
+    "description": "Links an asset to a risk it is exposed to"
+}

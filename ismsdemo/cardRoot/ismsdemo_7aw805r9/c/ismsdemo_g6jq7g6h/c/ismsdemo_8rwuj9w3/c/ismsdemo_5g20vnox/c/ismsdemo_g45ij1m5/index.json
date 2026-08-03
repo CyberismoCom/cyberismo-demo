@@ -1,0 +1,16 @@
+{
+    "title": "BCP and DRP testing",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|c",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": null,
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/dueDate": null,
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": null,
+    "lastUpdated": "2026-08-03T11:17:55.027Z",
+    "links": [],
+    "templateCardKey": "ismsa_yixscmtf",
+    "createdAt": "2026-08-03T11:17:55.009Z"
+}
