@@ -1,0 +1,17 @@
+{
+    "title": "Local engineer",
+    "cardType": "secdeva/cardTypes/person",
+    "workflowState": "Draft",
+    "rank": "0|d",
+    "secdeva/fieldTypes/description": "Configures IoT devices",
+    "lastUpdated": "2026-08-03T14:16:29.967Z",
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_xb9rpsr2",
+            "linkDescription": "Manages the IoT device configuration"
+        }
+    ],
+    "templateCardKey": "secdeva_y83ovmvi",
+    "createdAt": "2026-08-03T14:15:24.723Z"
+}

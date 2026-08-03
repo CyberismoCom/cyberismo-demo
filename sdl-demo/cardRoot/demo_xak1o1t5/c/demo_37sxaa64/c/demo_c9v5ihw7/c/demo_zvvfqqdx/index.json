@@ -4,8 +4,8 @@
     "workflowState": "Draft",
     "rank": "0|k",
     "secdeva/fieldTypes/description": null,
-    "secdeva/fieldTypes/technology": null,
-    "lastUpdated": "2026-08-03T10:50:30.415Z",
+    "secdeva/fieldTypes/technology": "AWS cloud",
+    "lastUpdated": "2026-08-03T14:11:49.758Z",
     "links": [],
     "templateCardKey": "secdeva_rd2v7o60",
     "createdAt": "2026-08-03T10:50:05.022Z"
