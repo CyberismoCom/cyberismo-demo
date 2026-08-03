@@ -15,7 +15,7 @@ Here’s what you can explore:
 
 *Use the Awesome Modeling Tools.* Check out the {{#xref}}"cardKey":"demo_c9v5ihw7"{{/xref}} and tweak the data flow model — the diagrams update automatically based on component and data flow changes!
 
-*Trace Risks to Weaknesses & Requirements.* See how xref:demo_2lqrrvhv.adoc[an example risk] links to xref:demo_sximbgjl.adoc[a weakness] and a xref:demo_qylv7tsw.adoc[security requirement].
+*Trace Risks to Weaknesses & Requirements.* See how xref:demo_2lqrrvhv.adoc[an example risk] links to xref:demo_sximbgjl.adoc[a weakness] and a xref:demo_qzukeub2.adoc[security requirement].
 
 *Monitor Project Progress.* Visit {{#xref}}"cardKey":"demo_dingfe8d"{{/xref}} for an overview of the project's status.
 
@@ -23,15 +23,6 @@ Here’s what you can explore:
 
 Jump in and explore. Cyberismo makes security-driven development seamless!
 
-=== EU Cyber Resilience Act
-
-This demo environment includes the Cyberismo EU CRA module that includes tasks and templates for development teams of product manufacturers.
-
-*Secure Development Tasks for EU CRA Compliance.* Tasks from the EU CRA module have been already added under the Design, Implementation, Verification, and Releases cards.
-
-*Manage Technical Security Requirements.* Click the button *Add essential requirements from EU CRA module* in xref:demo_83qsnj1a.adoc[Security requirement specification for IoT device] to add placeholders for CRA essential requirements. Examine the new requirements and how they are linked to relevant secure development tasks automatically!
-
-*Trace Compliance Requirements.* Click the button *Add compliance requirements from EU CRA module* under xref:demo_xv3mwohi.adoc[Compliance] to add compliance requirements directly from the EU Cyber Resilience Act.
 
 === Give feedback
 
