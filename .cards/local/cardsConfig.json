@@ -11,7 +11,7 @@
         },
         {
             "name": "eucra",
-            "location": "https://github.com/CyberismoCom/module-eu-cra.git",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-eu-cra",
             "private": false
         },
         {
@@ -21,7 +21,7 @@
         },
         {
             "name": "secdeva",
-            "location": "https://github.com/CyberismoCom/module-secure-development-essentials.git",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-secure-development-essentials",
             "private": false
         }
     ],
