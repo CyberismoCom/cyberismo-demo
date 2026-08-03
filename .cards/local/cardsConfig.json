@@ -1,5 +1,5 @@
 {
-    "schemaVersion": 4,
+    "schemaVersion": 5,
     "cardKeyPrefix": "demo",
     "name": "Cyberismo demo",
     "description": "An interactive Cyberismo demo environment",
