@@ -1,0 +1,16 @@
+{
+    "title": "Requirement review by test engineer",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/dueDate": null,
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/identifier": null,
+    "links": [],
+    "templateCardKey": "secdeva_vb3xgrhq",
+    "createdAt": "2026-08-03T11:05:24.207Z",
+    "lastUpdated": "2026-08-03T11:05:24.209Z"
+}

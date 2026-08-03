@@ -1,0 +1,12 @@
+{
+    "title": "Customer plant boundary",
+    "cardType": "secdeva/cardTypes/trustBoundary",
+    "workflowState": "Draft",
+    "rank": "0|aj",
+    "secdeva/fieldTypes/description": null,
+    "secdeva/fieldTypes/technology": null,
+    "links": [],
+    "lastUpdated": "2026-08-03T10:49:50.377Z",
+    "templateCardKey": "secdeva_wxdm5iyo",
+    "createdAt": "2026-08-03T10:49:27.839Z"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Periodic reviews",
+    "cardType": "secdeva/cardTypes/periodicReviewRegister",
+    "workflowState": "None",
+    "rank": "0|dn",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/progress": null,
+    "base/fieldTypes/identifier": "secdeva_register_periodic-reviews",
+    "base/fieldTypes/reviewPeriod": 90,
+    "lastUpdated": "2026-08-03T10:48:05.369Z",
+    "links": [],
+    "templateCardKey": "secdeva_x6lm7gfp",
+    "createdAt": "2026-08-03T10:48:05.361Z"
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Scope secure development activities",
+    "cardType": "ismsa/cardTypes/internalControl",
+    "workflowState": "Open",
+    "rank": "0|en",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/identifier": "secdeva_control_scope-secure-development-activities",
+    "ismsa/fieldTypes/internalControlReviewPeriod": null,
+    "base/fieldTypes/reviewMonth": null,
+    "lastUpdated": "2026-08-03T10:48:05.376Z",
+    "links": [],
+    "templateCardKey": "secdeva_d2uw90pz",
+    "createdAt": "2026-08-03T10:48:05.362Z"
+}

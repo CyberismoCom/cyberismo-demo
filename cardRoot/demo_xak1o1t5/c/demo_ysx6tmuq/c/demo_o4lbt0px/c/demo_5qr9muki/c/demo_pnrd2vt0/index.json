@@ -1,0 +1,19 @@
+{
+    "cardType": "ismsa/cardTypes/internalControl",
+    "title": "Ensure competence",
+    "workflowState": "Out of scope",
+    "rank": "0|c",
+    "lastUpdated": "2026-08-03T10:49:09.681Z",
+    "links": [],
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/justification": "The HR department will keep track of trainings, so we can ignore this task in the project.",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "february",
+    "base/fieldTypes/lastReviewed": null,
+    "base/fieldTypes/identifier": "secdeva_control_ensure-competence",
+    "templateCardKey": "secdeva_1001",
+    "createdAt": "2026-08-03T10:48:05.362Z",
+    "lastTransitioned": "2026-08-03T10:49:09.681Z"
+}

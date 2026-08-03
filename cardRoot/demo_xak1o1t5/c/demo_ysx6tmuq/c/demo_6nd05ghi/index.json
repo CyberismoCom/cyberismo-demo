@@ -1,0 +1,16 @@
+{
+    "title": "Assets",
+    "cardType": "secdeva/cardTypes/register",
+    "workflowState": "None",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/progress": "asset-progress",
+    "base/fieldTypes/identifier": "secdeva_register_assets",
+    "lastUpdated": "2026-08-03T10:48:05.368Z",
+    "links": [],
+    "secdeva/fieldTypes/adoptionStepJustification": null,
+    "base/fieldTypes/adoptionStep": null,
+    "templateCardKey": "secdeva_s56dxdow",
+    "createdAt": "2026-08-03T10:48:05.361Z"
+}
