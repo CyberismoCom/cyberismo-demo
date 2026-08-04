@@ -11,7 +11,7 @@ Here’s what you can explore:
 
 *Test Automatic Progress Metrics.* Mark a development task as not required using the *Mark as out of scope* workflow transition, and watch the progress metric update instantly. Notice how the tool will require you to enter a justification before this transition can be executed. 
 
-*Explore How Tasks Interconnect.* Open  {{#xref}}"cardKey":"demo_4umgchca"{{/xref}} and click *View diagram* to visualize how tasks interconnect.
+*Explore How Tasks Interconnect.* Open  {{#xref}}"cardKey":"demo_fcfrx4v3"{{/xref}} and click *View diagram* to visualize how tasks interconnect.
 
 *Use the Awesome Modeling Tools.* Check out the {{#xref}}"cardKey":"demo_c9v5ihw7"{{/xref}} and tweak the data flow model — the diagrams update automatically based on component and data flow changes!
 
