@@ -1,6 +1,6 @@
 {
     "title": "Configuration data",
-    "cardType": "secdeva/cardTypes/process",
+    "cardType": "secdeva/cardTypes/dataStore",
     "workflowState": "Draft",
     "rank": "0|d",
     "secdeva/fieldTypes/description": "Stores IoT device configuration",

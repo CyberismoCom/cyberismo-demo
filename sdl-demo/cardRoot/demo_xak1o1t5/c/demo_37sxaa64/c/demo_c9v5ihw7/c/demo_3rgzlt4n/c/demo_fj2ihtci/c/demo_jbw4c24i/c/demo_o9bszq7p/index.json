@@ -1,0 +1,19 @@
+{
+    "title": "Backend API",
+    "cardType": "secdeva/cardTypes/interface",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "secdeva/fieldTypes/basicInputValidationTestingRequired": null,
+    "secdeva/fieldTypes/basicStressTestingRequired": null,
+    "secdeva/fieldTypes/fuzzTestingRequired": null,
+    "secdeva/fieldTypes/capacityTestingRequired": null,
+    "secdeva/fieldTypes/networkTrafficLoadTestingRequired": null,
+    "secdeva/fieldTypes/interfaceTestingScopingJustification": null,
+    "base/fieldTypes/identifier": "secdeva_document_interface",
+    "lastUpdated": "2026-08-04T11:11:23.140Z",
+    "links": [],
+    "templateCardKey": "secdeva_rnbvi5d5",
+    "createdAt": "2026-08-04T11:10:58.673Z"
+}

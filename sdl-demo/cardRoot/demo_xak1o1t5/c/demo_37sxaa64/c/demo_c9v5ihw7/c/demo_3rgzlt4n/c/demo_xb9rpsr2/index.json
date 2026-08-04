@@ -5,11 +5,11 @@
     "rank": "0|e",
     "secdeva/fieldTypes/description": "Web app front end for IoT device administration",
     "secdeva/fieldTypes/technology": null,
-    "lastUpdated": "2026-08-03T14:16:55.675Z",
+    "lastUpdated": "2026-08-04T11:12:27.637Z",
     "links": [
         {
             "linkType": "secdeva/linkTypes/dataflow",
-            "cardKey": "demo_jbw4c24i",
+            "cardKey": "demo_o9bszq7p",
             "linkDescription": "Makes API calls"
         }
     ],

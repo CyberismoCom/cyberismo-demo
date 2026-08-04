@@ -1,0 +1,11 @@
+{
+    "title": "Ethernet",
+    "cardType": "secdeva/cardTypes/physicalConnection",
+    "workflowState": "None",
+    "rank": "0|f",
+    "lastUpdated": "2026-08-04T11:10:17.028Z",
+    "links": [],
+    "secdeva/fieldTypes/physicalConnectionCount": 1,
+    "templateCardKey": "secdeva_tev0dnhe",
+    "createdAt": "2026-08-04T11:10:10.301Z"
+}
