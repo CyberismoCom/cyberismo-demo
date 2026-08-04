@@ -1,0 +1,17 @@
+{
+    "title": "EU CRA Article 19 (6): Obligations of importers",
+    "cardType": "ismsa/cardTypes/complianceRequirement",
+    "workflowState": "Open",
+    "rank": "0|f",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "public",
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": "eucra_compliance-requirement_article-19-6",
+    "ismsa/fieldTypes/requirementImplementationStrategy": null,
+    "ismsa/fieldTypes/requirementOrigin": "Regulation (EU) 2024/2847 Cyber Resilience Act",
+    "base/fieldTypes/justification": null,
+    "links": [],
+    "lastUpdated": "2026-08-04T09:24:53.217Z",
+    "templateCardKey": "eucra_t14s36rs",
+    "createdAt": "2026-08-04T09:24:53.200Z"
+}

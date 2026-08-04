@@ -1,0 +1,14 @@
+{
+    "title": "EU CRA Requirements",
+    "cardType": "secdeva/cardTypes/page",
+    "workflowState": "None",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-04T09:24:53.206Z",
+    "base/fieldTypes/identifier": "eucra_phase_requirements",
+    "base/fieldTypes/adoptionStep": "step1",
+    "links": [],
+    "templateCardKey": "eucra_cr5lcm7s",
+    "createdAt": "2026-08-04T09:24:53.197Z"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Access control",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|f",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "eucra_security-requirement_access-control",
+    "links": [],
+    "lastUpdated": "2026-08-04T09:31:48.541Z",
+    "templateCardKey": "eucra_bpc2zbk0",
+    "createdAt": "2026-08-04T09:31:48.535Z"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Essential requirements",
+    "cardType": "secdeva/cardTypes/page",
+    "workflowState": "None",
+    "rank": "0|a",
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": null,
+    "links": [],
+    "lastUpdated": "2026-08-04T09:24:53.208Z",
+    "templateCardKey": "eucra_tp8o3t6s",
+    "createdAt": "2026-08-04T09:24:53.197Z"
+}

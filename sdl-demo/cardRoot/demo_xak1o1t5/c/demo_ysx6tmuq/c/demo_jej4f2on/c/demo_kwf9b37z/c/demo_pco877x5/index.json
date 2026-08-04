@@ -1,0 +1,17 @@
+{
+    "title": "Determine the support period",
+    "cardType": "ismsa/cardTypes/internalControl",
+    "workflowState": "Open",
+    "rank": "0|gk",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/identifier": "eucra_control_support-period",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": null,
+    "lastUpdated": "2026-08-04T09:25:18.032Z",
+    "links": [],
+    "templateCardKey": "eucra_a18d3a6s",
+    "createdAt": "2026-08-04T09:25:18.031Z"
+}

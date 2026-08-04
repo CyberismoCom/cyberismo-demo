@@ -1,0 +1,17 @@
+{
+    "title": "EU CRA Annex I (2) (4): Documenting vulnerabilities",
+    "cardType": "ismsa/cardTypes/complianceRequirement",
+    "workflowState": "Open",
+    "rank": "0|d",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "public",
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": "eucra_compliance-requirement_annex-I-2-4",
+    "ismsa/fieldTypes/requirementImplementationStrategy": null,
+    "ismsa/fieldTypes/requirementOrigin": "Regulation (EU) 2024/2847 Cyber Resilience Act",
+    "base/fieldTypes/justification": null,
+    "links": [],
+    "lastUpdated": "2026-08-04T09:24:53.221Z",
+    "templateCardKey": "eucra_8yfmpvt9",
+    "createdAt": "2026-08-04T09:24:53.199Z"
+}
