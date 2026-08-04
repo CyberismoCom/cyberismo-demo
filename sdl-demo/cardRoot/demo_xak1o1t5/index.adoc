@@ -18,6 +18,7 @@ End users:
 * Customer OT staff
 
 Internal stakeholders: 
+
 * Service engieners
 * Quality and compliance
 * CTO
