@@ -2,16 +2,13 @@
     "title": "Fulfill the importer obligations",
     "cardType": "ismsa/cardTypes/internalControl",
     "workflowState": "Open",
-    "rank": "0|i",
-    "base/fieldTypes/owner": null,
+    "rank": "0|l",
     "base/fieldTypes/informationClassification": "internal",
-    "base/fieldTypes/justification": null,
     "base/fieldTypes/adoptionStep": "step2",
     "base/fieldTypes/identifier": "eucra_control_obligations-of-importers",
     "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
-    "base/fieldTypes/reviewMonth": null,
-    "lastUpdated": "2026-08-04T09:25:28.212Z",
+    "lastUpdated": "2026-08-10T14:56:53.415Z",
     "links": [],
     "templateCardKey": "eucra_gk05ojs3",
-    "createdAt": "2026-08-04T09:25:28.210Z"
+    "createdAt": "2026-08-10T14:56:53.413Z"
 }
