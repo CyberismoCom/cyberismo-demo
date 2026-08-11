@@ -1,0 +1,12 @@
+{
+    "title": "Requirement review by product owner",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/adoptionStep": "step1",
+    "links": [],
+    "templateCardKey": "secdeva_7zt73yw4",
+    "createdAt": "2026-08-11T20:41:01.618Z",
+    "lastUpdated": "2026-08-11T20:41:01.620Z"
+}

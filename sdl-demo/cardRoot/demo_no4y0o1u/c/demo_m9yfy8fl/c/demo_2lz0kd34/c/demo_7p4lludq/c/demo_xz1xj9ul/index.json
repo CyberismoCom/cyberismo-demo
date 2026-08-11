@@ -1,0 +1,12 @@
+{
+    "title": "Requirement review by developer or architect",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/adoptionStep": "step1",
+    "links": [],
+    "templateCardKey": "eucra_8tbc0om2",
+    "createdAt": "2026-08-11T20:52:33.147Z",
+    "lastUpdated": "2026-08-11T20:52:33.156Z"
+}

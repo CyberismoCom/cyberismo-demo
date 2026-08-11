@@ -1,0 +1,11 @@
+{
+    "title": "Technology assessments",
+    "cardType": "secdeva/cardTypes/register",
+    "workflowState": "None",
+    "rank": "0|cq",
+    "base/fieldTypes/identifier": "secdeva_register_technology-assessments",
+    "lastUpdated": "2026-08-11T20:10:22.612Z",
+    "links": [],
+    "templateCardKey": "secdeva_kxh4un1n",
+    "createdAt": "2026-08-11T20:10:22.605Z"
+}

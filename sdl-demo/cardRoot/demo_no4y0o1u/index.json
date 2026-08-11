@@ -1,0 +1,15 @@
+{
+    "title": "IoT device",
+    "cardType": "secdeva/cardTypes/project2",
+    "workflowState": "Active",
+    "rank": "0|f",
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_project",
+    "links": [],
+    "lastUpdated": "2026-08-11T20:11:50.337Z",
+    "templateCardKey": "secdeva_1viupwcw",
+    "createdAt": "2026-08-11T20:10:22.604Z",
+    "base/fieldTypes/owner": "product.owner@example.com",
+    "lastTransitioned": "2026-08-11T20:11:50.337Z"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Excessive retries to the DCS",
+    "cardType": "secdeva/cardTypes/securityIssue",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "secdeva/fieldTypes/securityIssueCategory": "flaw",
+    "secdeva/fieldTypes/testingToBypassMitigation": "notApplicable",
+    "links": [],
+    "templateCardKey": "secdeva_acdtwvmg",
+    "createdAt": "2026-08-11T20:43:06.658Z",
+    "lastUpdated": "2026-08-11T20:43:32.883Z"
+}

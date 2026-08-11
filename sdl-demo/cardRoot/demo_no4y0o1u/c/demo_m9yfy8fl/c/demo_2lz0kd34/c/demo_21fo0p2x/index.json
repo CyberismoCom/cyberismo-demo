@@ -1,0 +1,12 @@
+{
+    "title": "Minimise negative impact",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|k",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "eucra_security-requirement_minimise-negative-impact",
+    "links": [],
+    "lastUpdated": "2026-08-11T20:52:33.151Z",
+    "templateCardKey": "eucra_p22p6g7g",
+    "createdAt": "2026-08-11T20:52:33.146Z"
+}

@@ -1,0 +1,12 @@
+{
+    "cardType": "secdeva/cardTypes/threatModel",
+    "title": "Threat model - IoT device",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-11T20:12:54.718Z",
+    "links": [],
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_document_threat-model",
+    "templateCardKey": "secdeva_ncnm6dgu",
+    "createdAt": "2026-08-11T20:12:54.446Z"
+}

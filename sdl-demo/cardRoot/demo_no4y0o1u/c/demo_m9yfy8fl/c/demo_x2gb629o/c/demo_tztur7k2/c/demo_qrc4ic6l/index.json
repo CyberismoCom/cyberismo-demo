@@ -1,0 +1,15 @@
+{
+    "cardType": "ismsa/cardTypes/internalControl",
+    "title": "Manage interfaces",
+    "workflowState": "Open",
+    "rank": "0|gk",
+    "lastUpdated": "2026-08-11T20:10:22.618Z",
+    "links": [],
+    "base/fieldTypes/adoptionStep": "step3",
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "june",
+    "base/fieldTypes/identifier": "secdeva_control_interface-specifications",
+    "templateCardKey": "secdeva_1038",
+    "createdAt": "2026-08-11T20:10:22.607Z"
+}

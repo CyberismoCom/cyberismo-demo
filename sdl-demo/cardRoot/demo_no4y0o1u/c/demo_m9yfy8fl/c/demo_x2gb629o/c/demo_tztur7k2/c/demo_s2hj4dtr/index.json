@@ -1,0 +1,15 @@
+{
+    "cardType": "ismsa/cardTypes/internalControl",
+    "title": "Ensure secure development in subprojects",
+    "workflowState": "Open",
+    "rank": "0|gj",
+    "lastUpdated": "2026-08-11T20:10:22.617Z",
+    "links": [],
+    "base/fieldTypes/adoptionStep": "step2",
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "june",
+    "base/fieldTypes/identifier": "secdeva_control_subprojects",
+    "templateCardKey": "secdeva_1004",
+    "createdAt": "2026-08-11T20:10:22.606Z"
+}

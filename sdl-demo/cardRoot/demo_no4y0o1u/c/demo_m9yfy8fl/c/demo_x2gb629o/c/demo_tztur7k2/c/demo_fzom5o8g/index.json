@@ -1,0 +1,15 @@
+{
+    "title": "Review privacy by design",
+    "cardType": "ismsa/cardTypes/internalControl",
+    "workflowState": "Open",
+    "rank": "0|gi",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/adoptionStep": "step2",
+    "base/fieldTypes/identifier": "secdeva_control_privacy-by-design-review",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "march",
+    "lastUpdated": "2026-08-11T20:10:22.618Z",
+    "links": [],
+    "templateCardKey": "secdeva_ega8d93x",
+    "createdAt": "2026-08-11T20:10:22.607Z"
+}

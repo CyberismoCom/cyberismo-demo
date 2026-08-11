@@ -1,0 +1,19 @@
+{
+    "title": "Backend API",
+    "cardType": "secdeva/cardTypes/interface",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_document_interface",
+    "lastUpdated": "2026-08-11T20:16:47.745Z",
+    "links": [],
+    "secdeva/fieldTypes/interfaceType": "logical",
+    "templateCardKey": "secdeva_rnbvi5d5",
+    "createdAt": "2026-08-11T20:16:03.732Z",
+    "secdeva/fieldTypes/transportSecurity": "required",
+    "secdeva/fieldTypes/interfaceAuthentication": "required",
+    "secdeva/fieldTypes/port": "443/tcp",
+    "secdeva/fieldTypes/interfacePurpose": [
+        "maintenance"
+    ]
+}

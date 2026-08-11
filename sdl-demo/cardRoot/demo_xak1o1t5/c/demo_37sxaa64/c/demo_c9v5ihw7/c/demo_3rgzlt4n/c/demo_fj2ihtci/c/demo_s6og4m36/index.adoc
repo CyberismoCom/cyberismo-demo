@@ -1,1 +1,0 @@
-TIP: Document the name of the physical connection in the title of this card.

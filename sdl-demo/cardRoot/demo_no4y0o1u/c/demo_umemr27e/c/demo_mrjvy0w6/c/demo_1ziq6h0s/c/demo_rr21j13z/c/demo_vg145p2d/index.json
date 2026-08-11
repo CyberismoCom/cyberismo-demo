@@ -1,0 +1,18 @@
+{
+    "title": "USB",
+    "cardType": "secdeva/cardTypes/interface",
+    "workflowState": "Draft",
+    "rank": "0|e",
+    "lastUpdated": "2026-08-11T20:38:04.112Z",
+    "links": [],
+    "secdeva/fieldTypes/physicalConnectionCount": 3,
+    "secdeva/fieldTypes/interfaceType": "physical",
+    "secdeva/fieldTypes/interfaceTestingScopingJustification": "Physical interface",
+    "secdeva/fieldTypes/networkTrafficLoadTestingRequired": false,
+    "secdeva/fieldTypes/capacityTestingRequired": false,
+    "secdeva/fieldTypes/fuzzTestingRequired": false,
+    "secdeva/fieldTypes/basicStressTestingRequired": false,
+    "secdeva/fieldTypes/basicInputValidationTestingRequired": false,
+    "templateCardKey": "secdeva_tev0dnhe",
+    "createdAt": "2026-08-11T20:37:46.903Z"
+}
