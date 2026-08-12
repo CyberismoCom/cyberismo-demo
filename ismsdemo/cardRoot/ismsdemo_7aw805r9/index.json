@@ -1,13 +1,14 @@
 {
     "title": "ISMS home for IoT Company",
     "cardType": "ismsa/cardTypes/moduleHome",
-    "workflowState": "Draft",
+    "workflowState": "Ready",
     "rank": "0|b",
     "links": [],
-    "lastUpdated": "2026-08-03T11:18:04.046Z",
-    "base/fieldTypes/owner": null,
+    "lastUpdated": "2026-08-12T07:19:46.926Z",
+    "base/fieldTypes/owner": "ciso@example.com",
     "base/fieldTypes/informationClassification": "internal",
     "ismsa/fieldTypes/adoptionStep": "step1",
     "templateCardKey": "ismsa_rnt5sg3y",
-    "createdAt": "2026-08-03T11:17:55.008Z"
+    "createdAt": "2026-08-03T11:17:55.008Z",
+    "lastTransitioned": "2026-08-12T07:19:46.926Z"
 }
