@@ -1,6 +1,0 @@
-{
-    "displayName": "Security requirements specification",
-    "description": "A document that gathers the security requirements of the project",
-    "category": "Secure development specifications",
-    "name": "secdeva/templates/securityRequirementsSpecification"
-}

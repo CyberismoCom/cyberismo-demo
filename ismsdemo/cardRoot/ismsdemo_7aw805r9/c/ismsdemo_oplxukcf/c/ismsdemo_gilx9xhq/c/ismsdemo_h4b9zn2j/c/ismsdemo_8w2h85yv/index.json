@@ -1,0 +1,21 @@
+{
+    "title": "Employee devices",
+    "cardType": "ismsa/cardTypes/assetDevice",
+    "workflowState": "Draft",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/assetCriticalityForOperations": null,
+    "ismsa/fieldTypes/assetRiskEvaluationNeeded": null,
+    "ismsa/fieldTypes/assetAccessControl": null,
+    "ismsa/fieldTypes/assetUpdates": null,
+    "ismsa/fieldTypes/assetLocation": null,
+    "ismsa/fieldTypes/assetBackups": null,
+    "ismsa/fieldTypes/assetPersonalInformation": null,
+    "ismsa/fieldTypes/assetIntegrity": null,
+    "ismsa/fieldTypes/assetAvailability": null,
+    "links": [],
+    "templateCardKey": "ismsa_fo9h49wb",
+    "createdAt": "2026-08-03T11:17:55.011Z",
+    "lastUpdated": "2026-08-03T11:17:55.028Z"
+}

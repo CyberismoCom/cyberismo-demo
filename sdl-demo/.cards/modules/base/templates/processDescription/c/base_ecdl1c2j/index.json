@@ -1,0 +1,10 @@
+{
+    "title": "Untitled process",
+    "cardType": "base/cardTypes/controlledDocument",
+    "workflowState": "",
+    "base/fieldTypes/informationClassification": "internal",
+    "rank": "0|a",
+    "lastUpdated": "2026-08-11T13:06:13.313Z",
+    "links": [],
+    "base/fieldTypes/reviewPeriod": 365
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Product documentation review of (Scope)",
+    "cardType": "base/cardTypes/review",
+    "workflowState": "",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": null,
+    "base/fieldTypes/lastReviewed": null,
+    "base/fieldTypes/reviewPeriod": null,
+    "lastUpdated": "2026-08-07T07:51:08.776Z",
+    "links": [],
+    "base/fieldTypes/identifier": "secdeva_review_product-documentation"
+}

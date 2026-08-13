@@ -1,0 +1,6 @@
+{
+    "displayName": "Security requirements testing (deprecated)",
+    "description": "Testing of the security requirements",
+    "category": "Deprecated",
+    "name": "secdeva/templates/securityRequirementsTest"
+}

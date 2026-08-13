@@ -1,0 +1,41 @@
+{
+    "name": "ismsa/cardTypes/statementOfApplicability",
+    "workflow": "base/workflows/controlledDocument",
+    "customFields": [
+        {
+            "name": "ismsa/fieldTypes/soaScopeStatement",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/soaVersion",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/owner",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/approver",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/approvalDate",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "ismsa/fieldTypes/soaScopeStatement",
+        "ismsa/fieldTypes/soaVersion",
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "base/fieldTypes/approver",
+        "base/fieldTypes/approvalDate"
+    ],
+    "optionallyVisibleFields": [],
+    "displayName": "Statement of applicability",
+    "description": "A formal document listing applicable cybersecurity controls"
+}

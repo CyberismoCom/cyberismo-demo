@@ -1,6 +1,0 @@
-{
-    "name": "secdeva/reports/threatMitigationTestCoverage",
-    "displayName": "Threat mitigation test coverage",
-    "description": "The status of threat mitigation testing of a project",
-    "category": "Security testing"
-}

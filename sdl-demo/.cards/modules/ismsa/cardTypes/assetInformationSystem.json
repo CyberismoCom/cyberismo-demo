@@ -1,0 +1,84 @@
+{
+    "name": "ismsa/cardTypes/assetInformationSystem",
+    "workflow": "ismsa/workflows/asset",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetAccessControl",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetAdmins",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetAvailability",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetBackups",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetCriticalityForOperations",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetIntegrity",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetLocation",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetLoggingAndMonitoring",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetPersonalInformation",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetPublisher",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetRiskEvaluationNeeded",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetUpdates",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "ismsa/fieldTypes/assetCriticalityForOperations",
+        "ismsa/fieldTypes/assetRiskEvaluationNeeded",
+        "ismsa/fieldTypes/assetAccessControl",
+        "ismsa/fieldTypes/assetUpdates",
+        "ismsa/fieldTypes/assetBackups",
+        "ismsa/fieldTypes/assetLoggingAndMonitoring"
+    ],
+    "optionallyVisibleFields": [
+        "ismsa/fieldTypes/assetPublisher",
+        "ismsa/fieldTypes/assetAdmins",
+        "ismsa/fieldTypes/assetPersonalInformation",
+        "ismsa/fieldTypes/assetIntegrity",
+        "ismsa/fieldTypes/assetAvailability",
+        "ismsa/fieldTypes/assetLocation"
+    ],
+    "displayName": "Information system asset",
+    "description": "An information system asset that needs protection"
+}

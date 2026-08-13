@@ -1,6 +1,0 @@
-{
-    "displayName": "Error handling testing",
-    "description": "Testing of that the product or the solution handles errors properly",
-    "category": "Security testing",
-    "name": "secdeva/templates/errorHandlingTest"
-}

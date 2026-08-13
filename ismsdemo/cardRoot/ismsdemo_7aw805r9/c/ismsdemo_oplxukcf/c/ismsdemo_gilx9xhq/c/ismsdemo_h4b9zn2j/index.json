@@ -1,0 +1,15 @@
+{
+    "title": "Devices",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|bc",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": null,
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": null,
+    "links": [],
+    "templateCardKey": "ismsa_cj0tt7ry",
+    "createdAt": "2026-08-03T11:17:55.011Z",
+    "lastUpdated": "2026-08-03T11:17:55.026Z"
+}

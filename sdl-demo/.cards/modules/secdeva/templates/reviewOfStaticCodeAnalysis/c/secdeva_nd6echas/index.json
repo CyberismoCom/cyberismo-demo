@@ -1,0 +1,12 @@
+{
+    "title": "Review of static code analysis",
+    "cardType": "base/cardTypes/review",
+    "workflowState": "",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/lastReviewed": null,
+    "base/fieldTypes/identifier": "secdeva_review_static-code-analysis",
+    "links": [],
+    "lastUpdated": "2026-08-11T13:11:51.877Z"
+}

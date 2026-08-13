@@ -1,0 +1,28 @@
+== Introduction
+
+This document records a review of manual code review practices.
+
+== Review checklist
+
+Check that manual code reviews have been performed against secure coding standards.
+
+* [ ] OK
+* [ ] Not OK
+
+== Review notes
+
+#TODO: if applicable, add a link or an attachment to external systems for more information or evidence.#
+
+#TODO: Describe any notes and remarks about the review here#
+
+== Identified security issues
+
+{{#createCards}}
+  "template": "secdeva/templates/securityIssue",
+  "buttonLabel": "Create a new security issue"
+{{/createCards}}
+
+{{#report}}
+  "name": "secdeva/reports/securityIssueList"
+{{/report}}
+

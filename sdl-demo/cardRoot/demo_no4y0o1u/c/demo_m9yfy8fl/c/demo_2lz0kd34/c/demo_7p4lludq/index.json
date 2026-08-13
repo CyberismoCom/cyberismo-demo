@@ -1,0 +1,12 @@
+{
+    "title": "Limit attack surfaces",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|l",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "eucra_security-requirement_limit-attack-surfaces",
+    "links": [],
+    "lastUpdated": "2026-08-11T20:52:33.151Z",
+    "templateCardKey": "eucra_pe4trm32",
+    "createdAt": "2026-08-11T20:52:33.146Z"
+}

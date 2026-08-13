@@ -1,0 +1,16 @@
+{
+    "title": "Device Management",
+    "cardType": "ismsa/cardTypes/control",
+    "workflowState": "Open",
+    "rank": "0|b",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/controlStatus": null,
+    "ismsa/fieldTypes/controlJustification": null,
+    "ismsa/fieldTypes/controlSummary": null,
+    "ismsa/fieldTypes/controlOrigin": null,
+    "links": [],
+    "templateCardKey": "ismsa_9xek399v",
+    "createdAt": "2026-08-03T11:17:55.011Z",
+    "lastUpdated": "2026-08-03T11:17:55.031Z"
+}

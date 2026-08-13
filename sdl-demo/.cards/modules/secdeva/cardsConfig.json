@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 5,
+    "cardKeyPrefix": "secdeva",
+    "name": "Secure Development Essentials",
+    "description": "",
+    "version": "1.0.0",
+    "modules": [
+        {
+            "name": "base",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-base",
+            "private": false
+        },
+        {
+            "name": "ismsa",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-isms-essentials",
+            "private": false
+        }
+    ],
+    "hubs": []
+}

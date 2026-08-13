@@ -1,0 +1,14 @@
+{
+    "title": "Review technical documentation",
+    "cardType": "ismsa/cardTypes/internalControl",
+    "workflowState": "Open",
+    "rank": "0|g",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/adoptionStep": "step2",
+    "base/fieldTypes/identifier": "eucra_control_technical-documentation-review",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "lastUpdated": "2026-08-11T20:52:55.323Z",
+    "links": [],
+    "templateCardKey": "eucra_u55n3gsa",
+    "createdAt": "2026-08-11T20:52:55.322Z"
+}

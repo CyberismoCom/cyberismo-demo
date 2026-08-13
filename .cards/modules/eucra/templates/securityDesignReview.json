@@ -1,6 +1,0 @@
-{
-    "displayName": "Secure design review",
-    "description": "A review of the traceability of security in the design",
-    "category": "Secure development reviews",
-    "name": "eucra/templates/securityDesignReview"
-}

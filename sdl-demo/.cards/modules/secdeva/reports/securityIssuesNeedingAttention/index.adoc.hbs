@@ -1,0 +1,107 @@
+{{#each results}}
+
+{{#if issuesNeedingAttention}}
+[caption=]
+.Security issues that need attention
+[cols="5,2,3,3"]
+|===
+| Security issue | Severity | Affected assets | Policy violations
+
+{{#each issuesNeedingAttention}}
+|xref:{{this.key}}.adoc[{{this.title}}] [*{{this.workflowState}}*]
+|{{this.[secdeva/fieldTypes/severity].displayValue}}
+{{#if this.affectedAssets}}
+a|
+{{#each this.affectedAssets}}
+* xref:{{this.key}}.adoc[{{this.title}}]
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{#if this.policyChecks.failures}}
+a|
+{{#each this.policyChecks.failures}}
+* {{this.title}}
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{/each}}
+|===
+
+{{else}}
+
+There are no security issues that need attention.
+
+{{/if}}
+
+{{#if deferredIssues}}
+.Security issues that have been deferred to future resolution ({{deferredIssueCount}})
+[%collapsible]
+====
+
+[cols="5,2,3,3"]
+|===
+| Security issue | Severity | Affected assets | Policy violations
+
+{{#each deferredIssues}}
+|xref:{{this.key}}.adoc[{{this.title}}] [*{{this.workflowState}}*]
+|{{this.[secdeva/fieldTypes/severity].displayValue}}
+{{#if this.affectedAssets}}
+|
+{{#each this.affectedAssets}}
+* xref:{{this.key}}.adoc[{{this.title}}]
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{#if this.policyChecks.failures}}
+a|
+{{#each this.policyChecks.failures}}
+* {{this.title}}
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{/each}}
+|===
+
+====
+{{/if}}
+
+{{#if closedIssues}}
+.Security issues that have been tracked to closure ({{closedIssueCount}})
+[%collapsible]
+====
+
+[cols="5,2,2,3,3"]
+|===
+| Security issue | Workflow State | Severity | Affected assets | Policy violations
+
+{{#each closedIssues}}
+|xref:{{this.key}}.adoc[{{this.title}}]
+|{{this.workflowState}}
+|{{this.[secdeva/fieldTypes/severity].displayValue}}
+{{#if this.affectedAssets}}
+|
+{{#each this.affectedAssets}}
+* xref:{{this.key}}.adoc[{{this.title}}]
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{#if this.policyChecks.failures}}
+a|
+{{#each this.policyChecks.failures}}
+* {{this.title}}
+{{/each}}
+{{else}}
+|
+{{/if}}
+{{/each}}
+|===
+====
+
+{{/if}}
+
+{{/each}}

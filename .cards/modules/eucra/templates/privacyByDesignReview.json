@@ -1,6 +1,0 @@
-{
-    "displayName": "Privacy by design review",
-    "description": "A review of the handling of personal information",
-    "category": "Secure development reviews",
-    "name": "eucra/templates/privacyByDesignReview"
-}

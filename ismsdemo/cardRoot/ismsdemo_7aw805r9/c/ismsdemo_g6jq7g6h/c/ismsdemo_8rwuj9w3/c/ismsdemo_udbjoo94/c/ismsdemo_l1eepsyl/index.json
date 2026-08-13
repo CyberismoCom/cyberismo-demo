@@ -1,0 +1,16 @@
+{
+    "title": "Approve statement of applicability",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|f",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": null,
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/dueDate": null,
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": null,
+    "lastUpdated": "2026-08-03T11:17:55.028Z",
+    "links": [],
+    "templateCardKey": "ismsa_uqt8zexh",
+    "createdAt": "2026-08-03T11:17:55.009Z"
+}

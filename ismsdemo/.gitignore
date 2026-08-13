@@ -1,0 +1,12 @@
+.calc
+.asciidoctor
+.vscode
+*.html
+*.pdf
+*.puml
+**/.DS_Store
+*-debug.log
+*-error.log
+.temp
+.logs
+.cache

@@ -1,0 +1,42 @@
+{
+    "name": "base/cardTypes/review",
+    "workflow": "base/workflows/review",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/lastReviewed",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/reviewPeriod",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/identifier",
+            "displayName": "",
+            "isCalculated": false,
+            "enableOverride": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/lastReviewed"
+    ],
+    "optionallyVisibleFields": [
+        "base/fieldTypes/reviewPeriod",
+        "base/fieldTypes/informationClassification"
+    ],
+    "displayName": "Review",
+    "description": "Tracks a review that can pass or fail"
+}

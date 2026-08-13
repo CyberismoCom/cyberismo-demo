@@ -1,0 +1,6 @@
+{
+    "name": "ismsa/fieldTypes/assetType",
+    "displayName": "Asset type",
+    "dataType": "shortText",
+    "description": "Classification of the asset type"
+}

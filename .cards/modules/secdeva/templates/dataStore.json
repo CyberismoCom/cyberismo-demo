@@ -1,6 +1,0 @@
-{
-    "displayName": "Data store",
-    "description": "An entity in a dataflow model that stores information. For example, a database or a file.",
-    "category": "Dataflow model",
-    "name": "secdeva/templates/dataStore"
-}

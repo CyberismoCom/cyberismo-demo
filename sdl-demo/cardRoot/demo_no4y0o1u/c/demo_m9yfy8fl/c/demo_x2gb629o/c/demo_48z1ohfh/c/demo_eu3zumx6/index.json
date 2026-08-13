@@ -1,0 +1,15 @@
+{
+    "cardType": "ismsa/cardTypes/internalControl",
+    "title": "Analyse the business context",
+    "workflowState": "Open",
+    "rank": "0|a",
+    "lastUpdated": "2026-08-11T20:10:22.619Z",
+    "links": [],
+    "base/fieldTypes/adoptionStep": "step1",
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/internalControlReviewPeriod": "12months",
+    "base/fieldTypes/reviewMonth": "january",
+    "base/fieldTypes/identifier": "secdeva_control_analyse-business-context",
+    "templateCardKey": "secdeva_1006",
+    "createdAt": "2026-08-11T20:10:22.606Z"
+}

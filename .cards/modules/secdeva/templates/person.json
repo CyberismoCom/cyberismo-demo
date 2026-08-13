@@ -1,6 +1,0 @@
-{
-    "displayName": "Person",
-    "description": "A user, an administrator or another human stakeholder in a dataflow model. A special case of an external entity.",
-    "category": "Dataflow model",
-    "name": "secdeva/templates/person"
-}

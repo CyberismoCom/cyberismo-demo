@@ -1,0 +1,18 @@
+{
+    "name": "secdeva/cardTypes/version",
+    "workflow": "secdeva/workflows/version",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner"
+    ],
+    "optionallyVisibleFields": [],
+    "displayName": "Version",
+    "description": "A product release version"
+}

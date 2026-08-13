@@ -1,6 +1,0 @@
-{
-    "displayName": "Product cybersecurity risk",
-    "description": "A cybersecurity risk present in a product.",
-    "category": "Cybersecurity management",
-    "name": "secdeva/templates/productRisk"
-}

@@ -1,0 +1,15 @@
+{
+    "schemaVersion": 4,
+    "cardKeyPrefix": "ismsa",
+    "name": "ISMS essentials",
+    "description": "",
+    "version": "1.3.3",
+    "modules": [
+        {
+            "name": "base",
+            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-base",
+            "private": false
+        }
+    ],
+    "hubs": []
+}

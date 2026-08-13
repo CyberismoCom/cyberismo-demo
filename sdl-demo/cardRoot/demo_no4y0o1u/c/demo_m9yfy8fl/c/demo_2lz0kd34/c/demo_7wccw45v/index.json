@@ -1,0 +1,12 @@
+{
+    "title": "Security updates",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|e",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "eucra_security-requirement_security-updates",
+    "links": [],
+    "lastUpdated": "2026-08-11T20:52:33.150Z",
+    "templateCardKey": "eucra_3gaa8m4d",
+    "createdAt": "2026-08-11T20:52:33.146Z"
+}

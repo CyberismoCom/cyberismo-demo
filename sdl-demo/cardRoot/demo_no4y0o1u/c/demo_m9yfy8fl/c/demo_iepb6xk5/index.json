@@ -1,0 +1,12 @@
+{
+    "title": "Decisions",
+    "cardType": "secdeva/cardTypes/register",
+    "workflowState": "None",
+    "rank": "0|en",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_register_decisions",
+    "lastUpdated": "2026-08-11T20:10:22.612Z",
+    "links": [],
+    "templateCardKey": "secdeva_nqjjo5or",
+    "createdAt": "2026-08-11T20:10:22.605Z"
+}

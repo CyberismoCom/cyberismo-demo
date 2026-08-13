@@ -1,0 +1,6 @@
+{
+    "displayName": "Process (deprecated)",
+    "description": "An entity in a dataflow model that represents an activity that the system carries out. Included for backward compatibility.",
+    "category": "Deprecated",
+    "name": "secdeva/templates/process"
+}

@@ -1,6 +1,0 @@
-{
-    "displayName": "Attack surface analysis",
-    "description": "Testing of the actual exposed attack surface",
-    "category": "Security testing",
-    "name": "eucra/templates/attackSurfaceAnalysis"
-}

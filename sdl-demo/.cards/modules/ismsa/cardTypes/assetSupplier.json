@@ -1,0 +1,51 @@
+{
+    "name": "ismsa/cardTypes/assetSupplier",
+    "workflow": "ismsa/workflows/asset",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetContactDetails",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetCriticalityForOperations",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetProvidedServices",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetPersonalInformation",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/assetRiskEvaluationNeeded",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification",
+        "ismsa/fieldTypes/assetProvidedServices",
+        "ismsa/fieldTypes/assetContactDetails",
+        "ismsa/fieldTypes/assetCriticalityForOperations",
+        "ismsa/fieldTypes/assetRiskEvaluationNeeded"
+    ],
+    "optionallyVisibleFields": [
+        "ismsa/fieldTypes/assetPersonalInformation",
+        "ismsa/fieldTypes/assetLocation",
+        "ismsa/fieldTypes/assetBackups"
+    ],
+    "displayName": "Supplier asset",
+    "description": "A supplier relationship that needs security management"
+}

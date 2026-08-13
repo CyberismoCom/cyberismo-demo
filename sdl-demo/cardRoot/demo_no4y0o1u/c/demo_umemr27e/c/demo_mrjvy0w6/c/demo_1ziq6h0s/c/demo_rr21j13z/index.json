@@ -1,0 +1,16 @@
+{
+    "title": "IoT device",
+    "cardType": "secdeva/cardTypes/process",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-11T20:40:43.595Z",
+    "links": [
+        {
+            "linkType": "ismsa/linkTypes/presentsRisk",
+            "cardKey": "demo_mjibofs4"
+        }
+    ],
+    "templateCardKey": "secdeva_yye0ku8v",
+    "createdAt": "2026-08-11T20:13:49.929Z",
+    "secdeva/fieldTypes/description": "Reads data from DCS and pushes it to cloud for reporting"
+}

@@ -1,6 +1,0 @@
-{
-    "name": "secdeva/reports/checkRiskAssessmentStatus",
-    "displayName": "Product security risk status",
-    "description": "The status of product security risks",
-    "category": "Secure development"
-}

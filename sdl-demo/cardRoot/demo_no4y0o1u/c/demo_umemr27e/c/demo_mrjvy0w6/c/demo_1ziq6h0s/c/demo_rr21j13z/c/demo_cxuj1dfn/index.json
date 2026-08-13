@@ -1,0 +1,22 @@
+{
+    "title": "Admin web app backend",
+    "cardType": "secdeva/cardTypes/process",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-11T20:34:30.080Z",
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_uy61ynh5",
+            "linkDescription": "Delivers web app to user's browser"
+        },
+        {
+            "linkType": "secdeva/linkTypes/dataflow",
+            "cardKey": "demo_8o9x7h4z",
+            "linkDescription": "Manages configuration data"
+        }
+    ],
+    "templateCardKey": "secdeva_yye0ku8v",
+    "createdAt": "2026-08-11T20:15:44.338Z",
+    "secdeva/fieldTypes/technology": "Node.js"
+}

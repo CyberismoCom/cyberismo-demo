@@ -1,0 +1,33 @@
+{
+    "name": "ismsa/fieldTypes/riskResidualLikelihood",
+    "displayName": "Residual likelihood",
+    "dataType": "enum",
+    "enumValues": [
+        {
+            "enumValue": "veryLow",
+            "enumDisplayValue": "Very Low",
+            "enumDescription": "Negligible"
+        },
+        {
+            "enumValue": "low",
+            "enumDisplayValue": "Low",
+            "enumDescription": "Minor"
+        },
+        {
+            "enumValue": "moderate",
+            "enumDisplayValue": "Moderate",
+            "enumDescription": "Moderate"
+        },
+        {
+            "enumValue": "high",
+            "enumDisplayValue": "High",
+            "enumDescription": "Significant"
+        },
+        {
+            "enumValue": "veryHigh",
+            "enumDisplayValue": "Very High",
+            "enumDescription": "Severe"
+        }
+    ],
+    "description": "Estimated likelihood after risk treatment"
+}

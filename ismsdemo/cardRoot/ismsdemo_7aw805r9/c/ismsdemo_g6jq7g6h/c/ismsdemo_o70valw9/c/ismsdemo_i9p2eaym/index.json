@@ -1,0 +1,12 @@
+{
+    "title": "One time tasks",
+    "cardType": "base/cardTypes/page",
+    "workflowState": "Draft",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "templateCardKey": "ismsa_828dmb13",
+    "createdAt": "2026-08-03T11:17:55.009Z",
+    "lastUpdated": "2026-08-03T11:17:55.018Z"
+}

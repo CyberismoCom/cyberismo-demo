@@ -1,0 +1,6 @@
+{
+    "displayName": "Dataflow model (deprecated)",
+    "description": "A top level container for the elements of a dataflow model. Included for backward compatibility.",
+    "category": "Deprecated",
+    "name": "secdeva/templates/dataflowModel"
+}

@@ -1,0 +1,6 @@
+{
+    "displayName": "Person (deprecated)",
+    "description": "A user, an administrator or another human stakeholder in a dataflow model. A special case of an external entity. Included for backward compatibility.",
+    "category": "Deprecated",
+    "name": "secdeva/templates/person"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Protect the availability of essential functions",
+    "cardType": "secdeva/cardTypes/requirement",
+    "workflowState": "Draft",
+    "rank": "0|j",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "eucra_security-requirement_availability-of-essential-functions",
+    "links": [],
+    "lastUpdated": "2026-08-11T20:52:33.149Z",
+    "templateCardKey": "eucra_19nf8nkx",
+    "createdAt": "2026-08-11T20:52:33.146Z"
+}

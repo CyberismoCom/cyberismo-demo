@@ -1,0 +1,16 @@
+{
+    "title": "Getting started",
+    "cardType": "base/cardTypes/task",
+    "workflowState": "Open",
+    "rank": "0|a",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": null,
+    "base/fieldTypes/justification": null,
+    "base/fieldTypes/dueDate": null,
+    "base/fieldTypes/adoptionStep": null,
+    "base/fieldTypes/identifier": null,
+    "lastUpdated": "2026-08-03T11:17:55.025Z",
+    "links": [],
+    "templateCardKey": "ismsa_3ni17h9j",
+    "createdAt": "2026-08-03T11:17:55.009Z"
+}

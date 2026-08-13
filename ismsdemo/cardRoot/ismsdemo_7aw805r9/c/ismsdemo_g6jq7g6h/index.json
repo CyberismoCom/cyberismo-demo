@@ -1,0 +1,16 @@
+{
+    "title": "Task register",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|f",
+    "base/fieldTypes/owner": null,
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "ismsa_register_tasks",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "ismsa/fieldTypes/progress": "task-progress",
+    "labels": [],
+    "links": [],
+    "lastUpdated": "2026-08-03T11:17:55.015Z",
+    "templateCardKey": "ismsa_vf66shb8",
+    "createdAt": "2026-08-03T11:17:55.008Z"
+}

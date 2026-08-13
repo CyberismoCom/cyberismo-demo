@@ -1,0 +1,35 @@
+{
+    "name": "ismsa/cardTypes/register",
+    "workflow": "base/workflows/page",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/adoptionStep",
+            "isCalculated": false
+        },
+        {
+            "name": "ismsa/fieldTypes/progress",
+            "isCalculated": false
+        },
+        {
+            "name": "base/fieldTypes/identifier",
+            "isCalculated": false
+        }
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification"
+    ],
+    "displayName": "Register",
+    "optionallyVisibleFields": [],
+    "description": "A register that groups and tracks related items"
+}

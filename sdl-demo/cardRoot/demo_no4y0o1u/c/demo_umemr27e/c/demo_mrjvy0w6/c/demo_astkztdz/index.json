@@ -1,0 +1,12 @@
+{
+    "title": "Document review - Threat model",
+    "cardType": "base/cardTypes/reviewTask",
+    "workflowState": "Open",
+    "rank": "0|a",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/reviewPeriod": 365,
+    "links": [],
+    "lastUpdated": "2026-08-11T20:12:54.448Z",
+    "templateCardKey": "secdeva_ws2c9x0f",
+    "createdAt": "2026-08-11T20:12:54.446Z"
+}

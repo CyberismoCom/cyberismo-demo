@@ -1,0 +1,49 @@
+{
+    "name": "secdeva/cardTypes/technology",
+    "workflow": "base/workflows/controlledDocument",
+    "customFields": [
+        {
+            "name": "base/fieldTypes/owner",
+            "displayName": "",
+            "isCalculated": true,
+            "enableOverride": true
+        },
+        {
+            "name": "base/fieldTypes/informationClassification",
+            "isCalculated": false
+        },
+        {
+            "name": "secdeva/fieldTypes/sbomComponentType",
+            "isCalculated": false
+        },
+        {
+            "name": "secdeva/fieldTypes/sbomComponentGroup",
+            "isCalculated": false
+        },
+        {
+            "name": "secdeva/fieldTypes/sbomComponentName",
+            "isCalculated": false
+        },
+        {
+            "name": "secdeva/fieldTypes/sbomComponentCpe",
+            "isCalculated": false
+        },
+        {
+            "name": "secdeva/fieldTypes/sbomComponentPurl",
+            "isCalculated": false
+        }
+    ],
+    "optionallyVisibleFields": [
+        "secdeva/fieldTypes/sbomComponentType",
+        "secdeva/fieldTypes/sbomComponentGroup",
+        "secdeva/fieldTypes/sbomComponentName",
+        "secdeva/fieldTypes/sbomComponentCpe",
+        "secdeva/fieldTypes/sbomComponentPurl"
+    ],
+    "alwaysVisibleFields": [
+        "base/fieldTypes/owner",
+        "base/fieldTypes/informationClassification"
+    ],
+    "displayName": "Technology",
+    "description": "A third-party technology used in development"
+}
