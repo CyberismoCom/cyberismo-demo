@@ -3,7 +3,6 @@
     "cardType": "secdeva/cardTypes/requirement",
     "workflowState": "Draft",
     "rank": "0|b",
-    "base/fieldTypes/informationClassification": "internal",
     "base/fieldTypes/identifier": "secdeva_security_requirement",
     "links": [
         {
@@ -11,7 +10,7 @@
             "cardKey": "demo_mjibofs4"
         }
     ],
-    "lastUpdated": "2026-08-11T20:41:57.451Z",
+    "lastUpdated": "2026-08-16T21:24:03.490Z",
     "templateCardKey": "secdeva_t4mbumzb",
     "createdAt": "2026-08-11T20:41:01.618Z"
 }
