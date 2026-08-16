@@ -3,13 +3,11 @@
     "cardType": "ismsa/cardTypes/register",
     "workflowState": "Draft",
     "rank": "0|d",
-    "base/fieldTypes/owner": null,
     "base/fieldTypes/informationClassification": "internal",
     "base/fieldTypes/identifier": "ismsa_register_development-projects",
     "ismsa/fieldTypes/adoptionStep": "step1",
-    "ismsa/fieldTypes/progress": null,
     "links": [],
-    "lastUpdated": "2026-08-03T11:17:55.018Z",
+    "lastUpdated": "2026-08-16T21:21:13.535Z",
     "templateCardKey": "ismsa_ot9c5t65",
     "createdAt": "2026-08-03T11:17:55.011Z"
 }

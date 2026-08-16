@@ -3,13 +3,10 @@
     "cardType": "base/cardTypes/controlledDocument",
     "workflowState": "Draft",
     "rank": "0|b",
-    "base/fieldTypes/owner": null,
     "base/fieldTypes/informationClassification": "internal",
-    "base/fieldTypes/approver": null,
-    "base/fieldTypes/approvalDate": null,
     "base/fieldTypes/reviewPeriod": 365,
     "links": [],
     "templateCardKey": "ismsa_vx6341me",
     "createdAt": "2026-08-03T11:17:55.010Z",
-    "lastUpdated": "2026-08-03T11:17:55.019Z"
+    "lastUpdated": "2026-08-16T21:21:13.537Z"
 }

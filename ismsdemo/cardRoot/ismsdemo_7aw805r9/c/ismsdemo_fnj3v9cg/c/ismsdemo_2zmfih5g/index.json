@@ -3,13 +3,10 @@
     "cardType": "ismsa/cardTypes/register",
     "workflowState": "Draft",
     "rank": "0|cc",
-    "base/fieldTypes/owner": null,
     "base/fieldTypes/informationClassification": "internal",
-    "base/fieldTypes/identifier": null,
     "ismsa/fieldTypes/adoptionStep": "step1",
-    "ismsa/fieldTypes/progress": null,
     "links": [],
     "templateCardKey": "ismsa_uphx5knf",
     "createdAt": "2026-08-03T11:17:55.010Z",
-    "lastUpdated": "2026-08-03T11:17:55.018Z"
+    "lastUpdated": "2026-08-16T21:21:13.542Z"
 }

@@ -3,12 +3,7 @@
     "cardType": "ismsa/cardTypes/register",
     "workflowState": "Draft",
     "rank": "0|a",
-    "base/fieldTypes/owner": null,
-    "base/fieldTypes/informationClassification": null,
-    "ismsa/fieldTypes/adoptionStep": null,
-    "ismsa/fieldTypes/progress": null,
-    "base/fieldTypes/identifier": null,
-    "lastUpdated": "2026-08-03T11:17:55.019Z",
+    "lastUpdated": "2026-08-16T21:21:13.537Z",
     "links": [],
     "templateCardKey": "ismsa_cewegr94",
     "createdAt": "2026-08-03T11:17:55.008Z"
