@@ -6,26 +6,27 @@
     "modules": [
         {
             "name": "base",
-            "location": "git@github.com:CyberismoCom/module-base.git",
+            "location": "https://github.com/CyberismoCom/module-base.git",
             "private": false,
-            "version": "1.x"
+            "version": "^1.4.0"
         },
         {
             "name": "eucra",
-            "location": "git@github.com:CyberismoCom/module-eu-cra.git",
+            "location": "https://github.com/CyberismoCom/module-eu-cra.git",
             "private": false,
-            "version": "1.x"
+            "version": "^1.2.0"
         },
         {
             "name": "ismsa",
-            "location": "file:/Users/henryhaverinen/cyberismo/cyberismo-projects/module-isms-essentials",
-            "private": false
+            "location": "https://github.com/CyberismoCom/module-isms-essentials.git",
+            "private": false,
+            "version": "^1.4.4"
         },
         {
             "name": "secdeva",
-            "location": "git@github.com:CyberismoCom/module-secure-development-essentials.git",
+            "location": "https://github.com/CyberismoCom/module-secure-development-essentials.git",
             "private": false,
-            "version": "1.x"
+            "version": "^1.3.2"
         }
     ],
     "hubs": []
