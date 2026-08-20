@@ -1,3 +1,26 @@
-All outbound communication protocols shall be limited to what is necessary.
+== Source
 
-All protocols shall be verified to behave correctly also in error cases, so that there are no excessive retries or other excessive communications
+Derived from the risk *Compromising the availability of customer DCS* in the risk register, as part of the treatment plan for that risk.
+Unlike the requirements imported from the EU CRA module, this one comes from the project's own risk analysis rather than from a regulation.
+
+== Requirement description
+
+The product shall limit its outbound communications to what its essential functions require, and shall not be able to overload a system in its deployment environment under any network condition.
+
+* Outbound protocols shall be restricted to those required by the essential functions of the device. Every other outbound connection shall be disabled in the default configuration.
+* Retries shall be bounded: a maximum number of attempts per operation, with exponential backoff between attempts.
+* The request rate towards each external endpoint shall be capped, independently of how many retries the application layer asks for.
+* Every outbound protocol shall be verified to behave correctly in error cases — unreachable endpoint, slow endpoint, malformed response, missing response — and not only on the happy path.
+* The retry and rate limit values shall be configuration rather than hard-coded constants, and their defaults shall be recorded in the release documentation.
+
+== Acceptance criteria
+
+* The default configuration lists every enabled outbound protocol and endpoint, and each entry has a documented justification.
+* With the DCS endpoint unreachable for 30 minutes, the device's outbound request rate stays within the configured cap and does not grow over time.
+* With the DCS endpoint responding more slowly than the request timeout, the same holds.
+* Recovery is verified as well: once the endpoint responds normally, the device resumes data collection without operator intervention.
+
+== Verification
+
+Verified by test in the Verification phase, under *Test security requirements*.
+These are release tests rather than one-time acceptance tests, because a later change to the retry configuration would reintroduce the risk this requirement treats.

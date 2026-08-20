@@ -1,0 +1,15 @@
+{
+    "title": "Role assignments - IoT device",
+    "cardType": "base/cardTypes/review",
+    "workflowState": "Passed",
+    "rank": "0|b",
+    "base/fieldTypes/informationClassification": "internal",
+    "lastUpdated": "2026-08-20T20:49:37.283Z",
+    "base/fieldTypes/identifier": "secdeva_review_project-role-assignments",
+    "links": [],
+    "templateCardKey": "secdeva_1ihd0un4",
+    "createdAt": "2026-08-20T20:47:15.033Z",
+    "base/fieldTypes/owner": "product.owner@example.com",
+    "lastTransitioned": "2026-08-20T20:49:37.233Z",
+    "base/fieldTypes/lastReviewed": "2026-08-20"
+}

@@ -1,0 +1,16 @@
+== Task description
+
+Review the security context document.
+
+**Note**: The reviewer cannot be the same person as the owner or the approver of the document.
+
+== Review outcome
+
+Reviewed against the threat model and the current installation guide. The document is consistent with both.
+
+Two changes were requested during the review and have been incorporated:
+
+* The network security section originally assumed internal network segmentation. That assumption does not hold at the two reference customers, so it was removed. The device now has to defend itself against its own network segment, which is what the threat model already models.
+* The essential functionalities section was reordered so that "reading process data without disturbing the DCS" is stated first, since it is the only essential function whose failure has consequences outside our product.
+
+No open findings.

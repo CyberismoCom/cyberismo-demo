@@ -1,0 +1,243 @@
+== Introduction
+
+This document is a technology assessment for the purpose of storing the IoT device configuration locally on the device.
+
+The assessed technology is SQLite 3.46.x, embedded as a library in the device firmware. It backs the *Configuration data* data store in the threat model: the administration web application writes device configuration to it, and the runtime data handler reads that configuration at start-up and on change.
+
+The assessment covers SQLite as an embedded local store only. It does not cover use of SQLite for the buffered telemetry queue, which is a separate decision and is currently a flat file.
+
+.Instructions
+[%collapsible]
+====
+When adopting 3rd party solutions, the risks and justifications for the selection must be documented. Such solutions include:
+
+* Commercial off-the-shelf (COTS) with support
+* Free/libre open source software (FLOSS, FOSS, OSS), with or without paid support — see https://www.gnu.org/philosophy/floss-and-foss.en.html[FLOSS and FOSS]
+* Software of unknown provenance (SOUP): any of the above, or any binary solution without a proven pedigree in this field of industry
+
+Consider business compliance, intellectual property rights, user acceptance and risks across the full life cycle: acquisition, integration, testing, maintenance and end-of-life. An asset need not meet every criterion — those falling short can still be adopted with proper justification for accepting the related risk or with compensating security controls.
+
+The decision must involve the responsible architect, and any business implications must also involve a business responsible person. If you (as the technology selection responsible, business responsible or responsible architect) are not entitled to accept the risks, escalate to the architect team or product management per the technology selection process.
+
+Technology can be adopted once:
+
+* The technology assessment checklist is filled and any required escalations are concluded;
+* Identified risks can be accepted;
+* A maintenance responsible is nominated;
+* Vulnerability management and software update management are planned and documented.
+
+Remember to inform all impacted product stakeholders of the decision.
+====
+
+== Technology assessment checklist
+
+=== Business goals
+
+The technology is compliant with business goals:
+
+* Are the costs of the technology selection acceptable? +
+You should compare the costs of using 3rd party technology to the costs of implementing and maintaining an in-house implementation.
+* Does the technology selection support meeting the target schedule of the product?
+* Is the technology selection aligned with major business demands (performance, availability, product life cycle)
+* Business responsible accepts the identified major risks
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: No licence cost and no per-device fee. Writing our own transactional configuration store was estimated at several weeks plus indefinite maintenance, against days of integration for SQLite. Performance is far beyond what a configuration store needs: the whole configuration is a few hundred rows read at start-up.
+
+=== License
+
+License agreement for the technology is acceptable and compliant with the organization's license policy.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: SQLite is in the public domain, which imposes no attribution, copyleft or redistribution obligations on the firmware. This is the least restrictive category in our licence policy and needs no legal review.
+
+=== Patent risks
+
+Patent risks for the technology are acceptable.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: No known patent claims against SQLite. The technology has been in very wide commercial deployment for over two decades without patent litigation, which we accept as sufficient evidence.
+
+=== Users
+
+The technology is acceptable from the point of view of users. This is relevant also for interfaces and data format selections.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The store is internal to the device and is not exposed to users. The SQLite file format is a documented, long-term stable format, which helps our own support engineers when they need to inspect a configuration from a returned device.
+
+=== Capabilities
+
+The required features and capabilities of the technology are understood, and the proposed technology selection meets at least the most important technical requirements.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: Required capabilities are atomic transactional writes, crash resilience on unexpected power loss, and a small flash and memory footprint. SQLite meets all three. Write-ahead logging is enabled, which matters because plant power is not conditioned at every installation.
+
+=== Architect approval
+
+Selecting this technology is approved by the architect who is responsible for the product.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: Approved by the responsible architect, who is the owner of this document.
+
+=== Existing usage
+
+The technology is widely used, or already in use within the product.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: One of the most widely deployed software components in existence, including in safety-adjacent embedded products. Already in use in our previous product generation for the same purpose.
+
+=== No overlapping technologies
+
+The technology is not redundant or overlapping with another technology that the product is already using for the same purpose. For example, if the product already includes a crypto library, ensure that this technology is not another, overlapping crypto library.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: No other database or embedded store is present in the firmware. The telemetry buffer uses a flat file rather than a second store, and the intention is to migrate it onto SQLite rather than introduce a different technology.
+
+=== No lock-in
+
+No lock-in: It is possible to replace the selected technology with another technology, if needed.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: Access goes through our own configuration repository interface rather than SQLite calls scattered through the codebase, so the store can be replaced behind that interface. The on-disk format is documented and the data is exportable as SQL text.
+
+=== Competencies
+
+The team that is adopting the technology will have competencies to apply the technology in the long term.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The team has used SQLite in the previous product generation. The one area needing care is correct use of prepared statements, which is covered by the coding guideline and checked in code review and by static analysis.
+
+=== Security context
+
+The technology is suitable for the planned security context. The security context refers to the security provided by the environment where the asset owner is expected to deploy and use the product.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: See the linked security context document. SQLite is a local, in-process store with no network listener, so it adds nothing to the device's attack surface from the plant network. It does not encrypt data at rest; since the device is installed in a semi-private environment where physical access is not restricted to trusted personnel, confidentiality of the configuration at rest is handled at the application layer, where secrets are stored encrypted rather than in plaintext columns.
+
+=== Secure implementation
+
+The component has been implemented using sufficient rigor, and the security risks related to the vulnerabilities of Technology/component are acceptable.
+
+* The component should have no open vulnerabilities.
+* The vulnerability history of the technology/component is acceptable.
+* You can check the known vulnerabilities by using the vulnerability disclosure channels of the technology/component and the https://web.nvd.nist.gov/view/vuln/search[National Vulnerabilities Database].
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: No open vulnerabilities in the pinned version at the time of assessment. The historical CVEs are overwhelmingly reachable only when untrusted SQL or untrusted database files are processed. Neither applies here: the device executes only our own statements, and the database file is created and written by the device itself. The residual concern is a malformed database file after flash corruption, which is handled by validating and rebuilding the store on open failure.
+
+=== Security documentation
+
+There is sufficient security documentation for the technology/component.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The project documents its security posture, its recommended compile-time options for untrusted input, and its testing approach. We follow the recommended build options and record the enabled set in the build configuration.
+
+=== Security updates
+
+Security updates for technology/component are published regularly.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The project releases regularly and publishes fixes promptly. Because SQLite is statically linked into the firmware, shipping a SQLite fix requires a firmware release; our release cadence is compatible with this and the obligation is covered by the security update management plan.
+
+=== Security-related notifications
+
+There is a channel for receiving and monitoring notifications about security related issues from the supplier of the component.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: Monitored through the project's own announcement channel and through NVD alerts on the CPE recorded in the fields of this card. This component is included in the third party vulnerability monitoring list, so the monitoring is a named responsibility rather than an intention.
+
+=== Quality track record
+
+The technology has an acceptable quality track record and it has been sufficiently tested.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The project's own test suite provides very high branch coverage and includes extensive fault injection for out-of-memory, I/O error and crash-during-write conditions — which is precisely the failure class we care about, since plant power loss during a configuration write is a realistic event. On top of that, we test our own configuration repository against power-cut scenarios in the integration test set.
+
+=== Long term viability
+
+The organization that develops the technology is trustworthy and viable in the long term.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: The project has a stated long-term support horizon extending well beyond the supported lifetime of this product, a small but stable maintainer group, and funded commercial support available if we ever need it. Because the code is public domain and self-contained, we could maintain our pinned version ourselves as a fallback.
+
+=== Support and maintenance
+
+The support and maintenance responsibilities for the technology have been defined and are acceptable.
+
+* [x] OK
+* [ ] Not OK
+* [ ] Not Applicable
+
+Comments, links: No support contract is purchased; we self-support. The responsible architect is the nominated maintenance owner for this component: keeping the pinned version current, tracking advisories, and deciding when a SQLite fix warrants an out-of-cycle firmware release.
+
+== Conclusion
+
+SQLite is adopted for the device configuration store. All checklist items are OK and no escalation was required.
+
+Two conditions apply to the adoption, both of which are already reflected elsewhere in this project:
+
+* Confidentiality of stored secrets is handled at the application layer, not by the store. SQLite provides no encryption at rest in the configuration we use.
+* The component stays on the third party vulnerability monitoring list, and a SQLite security fix is grounds for a firmware release even outside the normal cadence.
+
+== Reviews of this document
+
+{{#createCards}}
+    "template": "base/templates/reviewTask",
+    "buttonLabel": "Add a new review task"
+{{/createCards}}
+
+{{#report}}
+  "name": "base/reports/childrenTable",
+  "cardType": "base/cardTypes/reviewTask"
+{{/report}}

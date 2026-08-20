@@ -3,14 +3,18 @@
     "cardType": "secdeva/cardTypes/requirement",
     "workflowState": "Draft",
     "rank": "0|b",
-    "base/fieldTypes/identifier": "secdeva_security_requirement",
+    "base/fieldTypes/identifier": "demo_security-requirement_limit-outbound-communications",
     "links": [
         {
             "linkType": "ismsa/linkTypes/mitigates",
             "cardKey": "demo_mjibofs4"
+        },
+        {
+            "linkType": "ismsa/linkTypes/mitigates",
+            "cardKey": "demo_af76k982"
         }
     ],
-    "lastUpdated": "2026-08-16T21:24:03.490Z",
+    "lastUpdated": "2026-08-20T20:16:40.373Z",
     "templateCardKey": "secdeva_t4mbumzb",
     "createdAt": "2026-08-11T20:41:01.618Z"
 }

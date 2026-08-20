@@ -7,41 +7,56 @@
 
 === Related assets
 
-This risk is related to the development project or its results.
+This risk affects the *IoT device* and, through it, the *Distributed control system* (DCS) in the customer's deployment environment.
+The device runs inside the customer plant trust boundary and reads process data from the DCS over OPC UA.
 
-#TODO: If necessary, add links to related more detailed assets in the threat model or the asset register using the 'affects asset' link type.#
+The DCS is not part of our product, but it controls a physical process at the customer plant.
+Degrading its availability is therefore a production and safety concern for the customer, not only a security concern for us.
 
 === Threat
 
-#TODO: Describe the threat#
+The IoT device sends far more OPC UA requests to the customer's DCS than the DCS is provisioned to serve, and the DCS becomes unable to serve its own operators.
+
+No external attacker is needed to cause this: an unreachable or slow DCS endpoint during normal operation is enough to trigger it.
+An attacker who can influence the device's network path can also trigger it deliberately, by dropping or delaying responses so that the device keeps retrying.
 
 === Potential vulnerabilities
 
-#TODO:# Link to the Security issues that may increase this risk with an 'is increased by' link.
+The retry logic in the *Runtime data handler* has no backoff and no upper bound on retry attempts.
+See the linked security issue, which increases this risk.
 
 === Consequences
 
-#TODO# Describe potential consequences.
-
-* #Consequence 1#
-* #Consequence 2#
-* #Consequence 3#
+* The DCS becomes slow or unresponsive, and plant operators lose visibility of the process they are controlling.
+* The customer stops production as a precaution while the cause is investigated.
+* The customer disconnects our device from their network, and the product stops delivering the reporting data it exists to provide.
+* The incident is attributed to our product, damaging customer trust and potentially triggering reporting obligations for a device sold in the EU.
 
 == Risk analysis
 
 === Existing risk mitigations
 
-#TODO:# Describe possible existing security requirements, tasks, and controls. Add 'is mitigated by' links, if applicable.
+None at the time of the initial assessment.
+The device applies no rate limiting to its outbound OPC UA traffic, and the customer's DCS has no dedicated protection against a misbehaving client on its own network.
 
 === Justification for initial risk level
 
-#TODO:# Add justifications for the initial likelihood and the initial impact.
+Initial likelihood is *moderate*: no attacker is required, and the triggering condition — an unreachable or slow DCS endpoint — occurs in normal operation.
+
+Initial impact is *high*: the affected system controls a physical process, so the realistic outcome is a precautionary production stop rather than a brief service degradation.
+
+This puts the initial risk level above the acceptable risk level defined in the *Risks* register, so the risk must be treated.
 
 == Risk treatment
 
+The chosen strategy is to *mitigate*. A device must not be able to overload a system in its deployment environment, whatever the network does.
+
 === Risk treatment plan
 
-#TODO:# Create or link security requirements to the treatment plan as needed.
+The security requirement *Limit outbound communications* bounds the device's outbound traffic: bounded retries with exponential backoff, a cap on the request rate per endpoint, and verification that each protocol behaves correctly in error cases and not only on the happy path.
+
+The requirement is verified by test during the Verification phase, under *Test security requirements*.
+The error-case tests stay in the release test set rather than being run once at acceptance, because a later change to the retry configuration would reintroduce the risk.
 
 {{#report}}
   "name": "secdeva/reports/createSecurityRequirementForRisk"
@@ -49,9 +64,16 @@ This risk is related to the development project or its results.
 
 === Justification for the residual risk
 
-#TODO:# Add justifications for the residual likelihood and the residual impact.
+Residual likelihood is *very low*: with bounded retries and a per-endpoint rate cap, the device cannot generate the traffic volume needed to affect the DCS, and the error-case behaviour is covered by tests.
+
+Residual impact is *moderate*: a defect in the rate limiting itself could still raise outbound traffic, but the cap bounds how far it can go before the customer's network monitoring detects it.
+
+The resulting residual risk level is within the acceptable risk level defined in the *Risks* register.
 
 == Risk monitoring
 
-When reviewing a risk that needs monitoring, evaluate the effectiveness of current controls.
-Consider the impacts of any significant incidents or other significant changes, and update this section accordingly.
+When reviewing this risk, check that:
+
+* the retry and rate limit defaults have not been relaxed in a later release,
+* the error-case tests for outbound protocols are still part of the release test set, and
+* no security issue reported against the device points to renewed excessive outbound traffic.

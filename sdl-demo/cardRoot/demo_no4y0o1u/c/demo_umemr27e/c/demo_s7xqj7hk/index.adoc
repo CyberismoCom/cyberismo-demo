@@ -1,0 +1,88 @@
+== Introduction
+
+The security context refers to a set of assumptions about the product or solution and the environment in which the product or solution is intended to be used. The security context is a key factor in determining the security requirements of a product.
+
+This document defines the security context for the IoT device. It is the shared baseline for the threat model, the risk assessment and the security requirements of the product, and it is the document to revisit whenever the product is proposed for a new kind of deployment.
+
+== Intended purpose
+
+The _intended purpose_ means the use for which the product or solution is intended by the manufacturer. The intended purpose includes the specific context and conditions of use.
+
+The intended purpose is to collect process data from a distributed control system (DCS) on an industrial plant network and forward it to our cloud data platform for reporting and analytics.
+
+The device is installed by a local engineer inside the customer's plant, cabled to the plant network, and configured through a local administration web application. In normal operation it is unattended and read-only towards the DCS: it subscribes to process data over OPC UA and never writes to the control system.
+
+== Foreseeable use
+
+The _reasonably foreseeable use_ means such use that is not necessarily the intended purpose supplied by the manufacturer, but which is likely to result from reasonably foreseeable human behaviour or technical operations or interactions.
+
+The foreseeable use includes:
+
+* Deployment on a plant network that is flatter and less segmented than our reference architecture, with the device sharing a broadcast domain with control equipment.
+* Long periods without firmware updates, because plant maintenance windows are infrequent and updates are batched into them.
+* Reuse of the same device across several plants over its lifetime, so configuration data from an earlier site may still be present when it is redeployed.
+* Operation with the cloud data platform unreachable for extended periods, for example while plant firewall rules are being changed.
+* Administration from an engineering laptop that is also used for other plant systems.
+
+== Foreseeable misuse
+
+The _reasonably foreseeable misuse_ means the use of a product or a solution in a way that is not in accordance with its intended purpose, but which may result from reasonably foreseeable human behaviour or interaction with other systems.
+
+The foreseeable misuse includes:
+
+* Exposing the administration interface to the internet, or to a plant-wide network, so that it can be reached remotely for convenience.
+* Leaving the device on default credentials after installation.
+* Connecting the device directly to safety-critical equipment rather than to the DCS.
+* Using the USB ports for purposes other than commissioning, for example to charge devices or to attach unvetted storage.
+* Treating the device as a general-purpose gateway and routing other plant traffic through it.
+
+== Essential functionalities
+
+Essential functionalities are such functionalities that are essential for the product or solution to meet its intended purpose. Essential functions include such functions or capabilities that are required to protect the health and the safety of users, and the environment (HSE).
+
+The essential functionalities are:
+
+* Reading process data from the DCS without disturbing it. The device must not affect the availability of the control system under any network condition. This is the one function whose failure has consequences outside our product.
+* Forwarding collected data to the cloud data platform, with local buffering while the platform is unreachable.
+* Authenticated local administration of the device configuration.
+* Protecting the integrity and authenticity of firmware updates.
+
+The device has no safety function of its own. Its HSE relevance is indirect: it shares a network with equipment that does have one.
+
+== Expected protection by the deployment environment
+
+The security context includes the expected protection that the deployment environment is assumed to provide. This is closely related to the Defense in Depth structure and layers for the product. It is defined by the following factors:
+
+=== Physical security
+
+The device is assumed to be installed in a semi-private environment: a factory floor or plant control room to which employees and contractors have routine access, but which is not open to the public.
+
+We therefore do not assume that physical access is restricted to trusted personnel, and we do not rely on physical security alone to protect the USB ports or the device configuration. We do assume the environment is not a public open-access space, so a sustained physical attack with specialist tooling is out of scope.
+
+The requirement for a semi-private installation environment is stated in the installation guide.
+
+=== Network security
+
+The device is assumed to be installed in a semi-private network: a plant or building automation network behind a perimeter firewall, not directly reachable from the internet.
+
+We do not assume internal network segmentation, and we do not assume that other hosts on the plant network are trustworthy. The device must therefore protect itself against traffic from its own network segment, and must not be able to harm other systems on that segment. Outbound access to the cloud data platform is assumed to be allowed through the perimeter firewall on a single port.
+
+The requirement that the administration interface must not be exposed beyond the plant network is stated in the installation guide.
+
+=== Operating system and middleware responsibilities
+
+The operating system and middleware are maintained by us as the product vendor. The customer is responsible only for applying the firmware updates we publish, within their own maintenance windows.
+
+We therefore own vulnerability management for the full software stack of the device, including third party components, and we own the monitoring of vulnerability disclosure channels for those components. Our obligation to publish updates, and the customer's obligation to apply them, are stated in the customer documentation together with the supported product lifetime.
+
+== Reviews
+
+{{#createCards}}
+    "template": "base/templates/reviewTask",
+    "buttonLabel": "Add new review task"
+{{/createCards}}
+
+{{#report}}
+  "name": "base/reports/childrenTable",
+  "cardType": "base/cardTypes/reviewTask"
+{{/report}}

@@ -1,0 +1,14 @@
+{
+    "title": "Document review - Technology assessment",
+    "cardType": "base/cardTypes/reviewTask",
+    "workflowState": "Closed as done",
+    "links": [],
+    "rank": "0|b",
+    "lastUpdated": "2026-08-20T20:40:08.933Z",
+    "base/fieldTypes/informationClassification": "internal",
+    "templateCardKey": "secdeva_4v4jbwr4",
+    "createdAt": "2026-08-20T20:34:21.160Z",
+    "base/fieldTypes/owner": "security.advisor@example.com",
+    "base/fieldTypes/lastReviewed": "2026-08-20",
+    "lastTransitioned": "2026-08-20T20:40:08.885Z"
+}

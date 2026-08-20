@@ -1,0 +1,13 @@
+{
+    "title": "Security advisor",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Assigned",
+    "rank": "0|aan",
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "lastUpdated": "2026-08-20T20:48:55.414Z",
+    "templateCardKey": "secdeva_kyc79mgv",
+    "createdAt": "2026-08-20T20:47:15.033Z",
+    "base/fieldTypes/owner": "security.advisor@example.com",
+    "lastTransitioned": "2026-08-20T20:48:55.414Z"
+}

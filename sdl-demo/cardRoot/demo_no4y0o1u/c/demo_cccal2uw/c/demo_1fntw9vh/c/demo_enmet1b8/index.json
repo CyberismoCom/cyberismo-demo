@@ -1,0 +1,13 @@
+{
+    "title": "Security response engineer",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Assigned",
+    "rank": "0|c",
+    "base/fieldTypes/informationClassification": "internal",
+    "lastUpdated": "2026-08-20T20:49:09.808Z",
+    "links": [],
+    "templateCardKey": "secdeva_ud0l4m4r",
+    "createdAt": "2026-08-20T20:47:15.033Z",
+    "base/fieldTypes/owner": "security.response@example.com",
+    "lastTransitioned": "2026-08-20T20:49:09.808Z"
+}

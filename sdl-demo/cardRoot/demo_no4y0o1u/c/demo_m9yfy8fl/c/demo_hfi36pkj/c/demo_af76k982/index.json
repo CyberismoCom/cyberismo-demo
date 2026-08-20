@@ -5,8 +5,19 @@
     "rank": "0|b",
     "secdeva/fieldTypes/securityIssueCategory": "flaw",
     "secdeva/fieldTypes/testingToBypassMitigation": "notApplicable",
-    "links": [],
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/increasesRisk",
+            "cardKey": "demo_mjibofs4"
+        }
+    ],
     "templateCardKey": "secdeva_acdtwvmg",
     "createdAt": "2026-08-11T20:43:06.658Z",
-    "lastUpdated": "2026-08-11T20:43:32.883Z"
+    "lastUpdated": "2026-08-20T20:17:33.386Z",
+    "secdeva/fieldTypes/severity": "high",
+    "secdeva/fieldTypes/severityJustification": "The flaw is reachable without any attacker action and its impact falls on a system outside our product that controls a physical process. It is not rated critical because it degrades availability only, with no loss of confidentiality or integrity, and it requires the device to already be installed on the customer's network.",
+    "secdeva/fieldTypes/rootCauseCategory": "requirements",
+    "secdeva/fieldTypes/rootCauseJustification": "No requirement existed for the behaviour of outbound protocols in error cases, so the retry loop was implemented against the happy path only. The gap is closed by the linked security requirement Limit outbound communications.",
+    "secdeva/fieldTypes/strategy": "Fix in the Runtime data handler: bound the retry count, add exponential backoff, and cap the request rate per endpoint. Add error-case tests for the OPC UA client to the release test set so the behaviour cannot regress. No customer workaround is offered, because the fix is in device firmware.",
+    "secdeva/fieldTypes/reporting": "releaseNotesOnceResolved"
 }

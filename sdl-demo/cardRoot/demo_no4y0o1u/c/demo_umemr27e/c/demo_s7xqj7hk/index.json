@@ -1,0 +1,17 @@
+{
+    "cardType": "base/cardTypes/controlledDocument",
+    "title": "Security context for the IoT device",
+    "workflowState": "Approved",
+    "rank": "0|c",
+    "lastUpdated": "2026-08-20T20:38:41.879Z",
+    "links": [],
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_document_security-context",
+    "templateCardKey": "secdeva_30",
+    "createdAt": "2026-08-20T20:34:14.344Z",
+    "base/fieldTypes/owner": "architect@example.com",
+    "base/fieldTypes/approver": "product.owner@example.com",
+    "base/fieldTypes/reviewPeriod": 365,
+    "lastTransitioned": "2026-08-20T20:36:20.139Z",
+    "base/fieldTypes/approvalDate": "2026-08-20"
+}

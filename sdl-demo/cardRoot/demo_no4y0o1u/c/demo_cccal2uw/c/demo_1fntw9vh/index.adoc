@@ -1,0 +1,31 @@
+== Role assignments
+
+Assign people to the security-related roles by editing the child cards. Add new role assignments, as needed.
+
+{{#createCards}}
+  "template": "base/templates/roleAssignment",
+  "buttonLabel": "Add a role assignment"
+{{/createCards}}
+
+{{#report}}
+  "name": "base/reports/roleAssignments"
+{{/report}}
+
+== Role assignment review
+
+* Check that all the required roles have been assigned
+* Ensure that the nominations are up to date.
+* If needed, confirm with the assignee that they are aware of this role assignment.
+
+This card can be marked as *Passed* if the role assignments are complete and up to date. Otherwise, mark the card as *Failed*.
+
+=== Review outcome
+
+All seven roles required for this project are assigned and each assignee has confirmed that they are aware of the role.
+
+Two points were resolved during the review:
+
+* The security advisor and the security response engineer were originally the same person. They were separated, because the security response engineer handles reported vulnerabilities under time pressure while the security advisor reviews designs and requirements, and one person cannot do both during an active incident.
+* The technical writer was initially left unassigned on the grounds that the product has no separate documentation team. It is assigned now, because the security update and end-of-support notifications that the product owes its customers are documentation deliverables with a named owner.
+
+The nominations are to be revisited at the next periodic review, or sooner if the project team changes.

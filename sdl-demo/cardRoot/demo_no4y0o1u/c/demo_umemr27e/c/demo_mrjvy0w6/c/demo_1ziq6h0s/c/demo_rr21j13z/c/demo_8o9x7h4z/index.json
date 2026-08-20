@@ -3,8 +3,13 @@
     "cardType": "secdeva/cardTypes/dataStore",
     "workflowState": "Draft",
     "rank": "0|d",
-    "lastUpdated": "2026-08-11T20:27:56.048Z",
-    "links": [],
+    "lastUpdated": "2026-08-20T20:40:23.341Z",
+    "links": [
+        {
+            "linkType": "base/linkTypes/relatesTo",
+            "cardKey": "demo_46jax1x2"
+        }
+    ],
     "templateCardKey": "secdeva_pvzfnwam",
     "createdAt": "2026-08-11T20:27:30.078Z",
     "secdeva/fieldTypes/description": "Stores IoT device configuration",

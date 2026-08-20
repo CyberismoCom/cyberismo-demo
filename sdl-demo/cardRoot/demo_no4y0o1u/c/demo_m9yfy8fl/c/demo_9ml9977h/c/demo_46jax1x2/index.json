@@ -1,0 +1,21 @@
+{
+    "cardType": "secdeva/cardTypes/technology",
+    "title": "SQLite",
+    "workflowState": "Approved",
+    "rank": "0|b",
+    "lastUpdated": "2026-08-20T20:40:15.731Z",
+    "links": [],
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_document_technology",
+    "templateCardKey": "secdeva_37",
+    "createdAt": "2026-08-20T20:34:21.159Z",
+    "base/fieldTypes/owner": "architect@example.com",
+    "base/fieldTypes/approver": "product.owner@example.com",
+    "secdeva/fieldTypes/sbomComponentType": "library",
+    "secdeva/fieldTypes/sbomComponentName": "sqlite",
+    "secdeva/fieldTypes/sbomComponentGroup": "org.sqlite",
+    "secdeva/fieldTypes/sbomComponentCpe": "cpe:2.3:a:sqlite:sqlite:3.46.1:*:*:*:*:*:*:*",
+    "secdeva/fieldTypes/sbomComponentPurl": "pkg:generic/sqlite@3.46.1",
+    "lastTransitioned": "2026-08-20T20:40:15.675Z",
+    "base/fieldTypes/approvalDate": "2026-08-20"
+}

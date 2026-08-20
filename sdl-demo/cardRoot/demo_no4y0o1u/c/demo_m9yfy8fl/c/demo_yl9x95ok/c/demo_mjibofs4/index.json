@@ -1,10 +1,17 @@
 {
     "title": "Compromising the availability of customer DCS",
     "cardType": "ismsa/cardTypes/risk",
-    "workflowState": "Open",
+    "workflowState": "Treatment in progress",
     "rank": "0|b",
-    "lastUpdated": "2026-08-11T20:40:55.342Z",
+    "lastUpdated": "2026-08-20T20:18:34.480Z",
     "links": [],
     "templateCardKey": "secdeva_zw1zyota",
-    "createdAt": "2026-08-11T20:40:42.905Z"
+    "createdAt": "2026-08-11T20:40:42.905Z",
+    "ismsa/fieldTypes/riskInitialLikelihood": "moderate",
+    "ismsa/fieldTypes/riskInitialImpact": "high",
+    "ismsa/fieldTypes/riskMitigationStrategy": "mitigate",
+    "ismsa/fieldTypes/riskResidualLikelihood": "veryLow",
+    "ismsa/fieldTypes/riskResidualImpact": "moderate",
+    "base/fieldTypes/informationClassification": "confidential",
+    "lastTransitioned": "2026-08-20T20:18:34.480Z"
 }

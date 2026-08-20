@@ -1,0 +1,13 @@
+{
+    "title": "Developer",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Assigned",
+    "rank": "0|aad",
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "lastUpdated": "2026-08-20T20:48:39.442Z",
+    "templateCardKey": "secdeva_8llfo2b7",
+    "createdAt": "2026-08-20T20:47:15.033Z",
+    "base/fieldTypes/owner": "developer@example.com",
+    "lastTransitioned": "2026-08-20T20:48:39.442Z"
+}

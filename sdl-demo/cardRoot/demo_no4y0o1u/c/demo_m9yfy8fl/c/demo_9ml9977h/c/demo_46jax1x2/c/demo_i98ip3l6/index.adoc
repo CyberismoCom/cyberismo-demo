@@ -1,0 +1,15 @@
+== Task description
+
+Review the technology assessment.
+
+**Note**: The reviewer cannot be the same person as the owner or the approver of the document.
+
+== Review outcome
+
+Reviewed by the security advisor. The assessment is accepted.
+
+One finding was raised and resolved before approval: the original draft marked the *Security context* item OK without saying anything about encryption at rest. Since the device is installed in a semi-private environment where physical access is not restricted to trusted personnel, that gap needed to be explicit. The item now states that SQLite provides no encryption at rest in our configuration and that confidentiality of stored secrets is handled at the application layer.
+
+One point was noted for follow-up rather than blocking approval: the intention to migrate the telemetry buffer from a flat file onto SQLite is out of scope here and needs its own assessment update when it happens.
+
+No open findings.

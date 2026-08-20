@@ -1,0 +1,13 @@
+{
+    "title": "Technical writer",
+    "cardType": "base/cardTypes/roleAssignment",
+    "workflowState": "Assigned",
+    "rank": "0|ab",
+    "base/fieldTypes/informationClassification": "internal",
+    "links": [],
+    "lastUpdated": "2026-08-20T20:49:02.691Z",
+    "templateCardKey": "secdeva_pkt9kvr0",
+    "createdAt": "2026-08-20T20:47:15.033Z",
+    "base/fieldTypes/owner": "technical.writer@example.com",
+    "lastTransitioned": "2026-08-20T20:49:02.691Z"
+}
