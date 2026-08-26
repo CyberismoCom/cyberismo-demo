@@ -1,0 +1,22 @@
+{
+    "title": "SQLite",
+    "cardType": "secdeva/cardTypes/product",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "links": [
+        {
+            "linkType": "secdeva/linkTypes/defaultComponentOf",
+            "cardKey": "demo_e93uf7xb"
+        },
+        {
+            "linkType": "base/linkTypes/relatesTo",
+            "cardKey": "demo_46jax1x2"
+        }
+    ],
+    "secdeva/fieldTypes/productOrigin": "thirdPartyOpenSource",
+    "lastUpdated": "2026-08-26T21:54:23.207Z",
+    "base/fieldTypes/informationClassification": "internal",
+    "templateCardKey": "secdeva_thirdpar01",
+    "createdAt": "2026-08-26T21:51:40.719Z",
+    "secdeva/fieldTypes/deliveryModel": "weDeliver"
+}

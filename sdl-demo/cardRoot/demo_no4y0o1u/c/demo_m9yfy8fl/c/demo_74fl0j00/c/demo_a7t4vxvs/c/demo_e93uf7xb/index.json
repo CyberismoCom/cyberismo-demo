@@ -1,0 +1,14 @@
+{
+    "title": "IoT device",
+    "cardType": "secdeva/cardTypes/product",
+    "workflowState": "Draft",
+    "rank": "0|b",
+    "links": [],
+    "secdeva/fieldTypes/productOrigin": "own",
+    "lastUpdated": "2026-08-26T21:52:34.502Z",
+    "base/fieldTypes/informationClassification": "internal",
+    "templateCardKey": "secdeva_ownprodu01",
+    "createdAt": "2026-08-26T21:52:16.100Z",
+    "secdeva/fieldTypes/productVendor": "IoT Company",
+    "secdeva/fieldTypes/deliveryModel": "weDevelopAndDeliver"
+}

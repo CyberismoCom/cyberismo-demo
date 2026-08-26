@@ -3,11 +3,11 @@
     "cardType": "secdeva/cardTypes/dataStore",
     "workflowState": "Draft",
     "rank": "0|d",
-    "lastUpdated": "2026-08-20T20:40:23.341Z",
+    "lastUpdated": "2026-08-26T21:53:53.512Z",
     "links": [
         {
-            "linkType": "base/linkTypes/relatesTo",
-            "cardKey": "demo_46jax1x2"
+            "linkType": "secdeva/linkTypes/implementedBy",
+            "cardKey": "demo_xexyp7aa"
         }
     ],
     "templateCardKey": "secdeva_pvzfnwam",
