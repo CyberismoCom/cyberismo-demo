@@ -13,8 +13,8 @@
             "cardKey": "demo_46jax1x2"
         }
     ],
-    "secdeva/fieldTypes/productOrigin": "thirdPartyOpenSource",
-    "lastUpdated": "2026-08-26T21:54:23.207Z",
+    "secdeva/fieldTypes/productOrigin": "thirdParty",
+    "lastUpdated": "2026-08-28T20:54:54.327Z",
     "base/fieldTypes/informationClassification": "internal",
     "templateCardKey": "secdeva_thirdpar01",
     "createdAt": "2026-08-26T21:51:40.719Z",

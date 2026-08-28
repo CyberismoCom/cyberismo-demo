@@ -1,0 +1,14 @@
+{
+    "title": "Releases",
+    "cardType": "ismsa/cardTypes/register",
+    "workflowState": "Draft",
+    "rank": "0|en",
+    "base/fieldTypes/informationClassification": "internal",
+    "ismsa/fieldTypes/adoptionStep": "step1",
+    "links": [],
+    "lastUpdated": "2026-08-28T21:01:47.666Z",
+    "templateCardKey": "ismsa_cd388icw",
+    "createdAt": "2026-08-28T21:01:23.446Z",
+    "base/fieldTypes/identifier": "secdeva_register_releases-controls",
+    "ismsa/fieldTypes/progress": "secdeva_internal-control-progress"
+}
