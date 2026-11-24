@@ -1,0 +1,13 @@
+{
+    "rank": "0|d",
+    "workflowState": "Draft",
+    "createdAt": "2026-11-24T11:03:55.647Z",
+    "links": [],
+    "cardType": "base/cardTypes/review",
+    "title": "2026-11-24 Review of security design - IoT device, beta",
+    "templateCardKey": "secdeva_9lgqjc3s",
+    "base/fieldTypes/informationClassification": "internal",
+    "base/fieldTypes/identifier": "secdeva_review_security-design",
+    "lastUpdated": "2026-11-24T11:03:55.724Z",
+    "base/fieldTypes/owner": "security.advisor@example.com"
+}

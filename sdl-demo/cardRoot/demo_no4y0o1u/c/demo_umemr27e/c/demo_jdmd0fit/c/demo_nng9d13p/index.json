@@ -1,0 +1,13 @@
+{
+    "rank": "0|e",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Keep it simple (KISS)",
+    "templateCardKey": "secdeva_9kf517mr",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_keep-it-simple",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The device has two processes: the runtime data handler and the admin web app backend. There is no plug-in mechanism."
+}

@@ -86,7 +86,8 @@ You can evaluate whether the DFD describes the system with sufficient detail by 
 
 {{#graph}}
   "model": "secdeva/graphModels/dataflow",
-  "view": "secdeva/graphViews/context"
+  "view": "secdeva/graphViews/context",
+  "mergeDataflows": true
 {{/graph}}
 
 == Detailed diagram
@@ -105,6 +106,12 @@ a| A *trust boundary* is a boundary between different trust zone levels.
 a| {{#createCards}}
     "buttonLabel": "Create a trust boundary",
     "template": "secdeva/templates/trustBoundary2"
+{{/createCards}}
+
+| A *group* organises elements in the navigation tree and keeps them together in the diagrams, where it is drawn as a grey rectangle unless you hide it. It is not an asset or a trust boundary.
+a| {{#createCards}}
+  "buttonLabel": "Create a group",
+  "template": "secdeva/templates/group"
 {{/createCards}}
 
 | An *external entity* is a source from which information flows into the system, or a recipient of information leaving the system
@@ -244,13 +251,17 @@ When reviewing this section, check that all internal and external interfaces, su
 {{#if interfaces}}
 
 .Interfaces
-[cols="3,3,2,2"]
+[cols="3,3,2,2,2,2,1,2"]
 |===
-| Asset | Interface | External? | Crosses trust boundary?
+| Asset | Interface | Port | Authentication | Transport security | Purpose | External? | Crosses trust boundary?
 
 {{#each interfaces}}
 |xref:{{this.[secdeva/fieldTypes/interfaceElementCardKey]}}.adoc[{{this.[secdeva/fieldTypes/interfaceElementTitle]}}]
 |xref:{{this.key}}.adoc[{{this.title}}]
+|{{this.[secdeva/fieldTypes/port]}}
+|{{this.[secdeva/fieldTypes/interfaceAuthentication].displayValue}}
+|{{this.[secdeva/fieldTypes/transportSecurity].displayValue}}
+|{{#each this.[secdeva/fieldTypes/interfacePurpose]}}{{this.displayName}}{{#unless @last}}, {{/unless}}{{/each}}
 |{{this.[secdeva/fieldTypes/isExternal].displayValue}}
 |{{this.[secdeva/fieldTypes/crossesTrustBoundary].displayValue}}
 
@@ -281,13 +292,16 @@ When reviewing this section, check that all physical ports and connections are l
 {{#if physicalConnections}}
 
 .Physical ports and connections
-[cols="3,3,1"]
+[cols="3,3,2,2,2,1"]
 |===
-| Asset | Physical connection | Count 
+| Asset | Physical connection | Port | Authentication | Purpose | Count
 
 {{#each physicalConnections}}
 |xref:{{this.[secdeva/fieldTypes/physicalConnectionElementCardKey]}}.adoc[{{this.[secdeva/fieldTypes/physicalConnectionElementTitle]}}]
 |xref:{{this.key}}.adoc[{{this.title}}]
+|{{this.[secdeva/fieldTypes/port]}}
+|{{this.[secdeva/fieldTypes/interfaceAuthentication].displayValue}}
+|{{#each this.[secdeva/fieldTypes/interfacePurpose]}}{{this.displayName}}{{#unless @last}}, {{/unless}}{{/each}}
 |{{this.[secdeva/fieldTypes/physicalConnectionCount]}}
 
 {{/each}}
@@ -370,7 +384,7 @@ Note that implementing the treatment plan is not part of threat model review.
 ====
 Create a risk if you identify a cyber threat — something that can cause harm by exploiting one or more vulnerabilities.
 
-If the risk affects a certain element such as a process or a data store, then create it under that element.
+If the risk affects a certain element such as a process or a data store, then create or link it on that element.
 ====
 
 {{#if allRisks}}
@@ -400,6 +414,19 @@ No risks have been identified in this threat model.
 
 {{/if}}
 
+{{#createLinks}}
+  "buttonLabel": "Link risks that affect the entire product",
+  "linkType": "ismsa/linkTypes/presentsRisk",
+  "direction": "outbound",
+  "cardKey": "{{../cardKey}}",
+  "query": {{#quoted}}
+result(X) :- secdeva_closestProject({{{../cardKey}}}, Project), secdeva_closestProject(X, Project), base_projectCardType(X, "ismsa/cardTypes/risk").
+select(1, "results", "title").
+select(1, "results", "cardType").
+order(1, "results", 1, "title", "ASC").
+{{/quoted}}
+{{/createLinks}}
+
 {{#createCards}}
     "template": "secdeva/templates/productRisk2",
     "buttonLabel": "Create a risk that affects the entire product",
@@ -417,7 +444,7 @@ No risks have been identified in this threat model.
 ====
 Create a security issue if you identify a vulnerability — a weakness that a threat could exploit.
 
-If the security issue affects a certain element such as a process or a data store, then create it under that element.
+If the security issue affects a certain element such as a process or a data store, then create or link it on that element.
 
 ====
 
@@ -450,6 +477,19 @@ No security issues have been identified in this threat model.
 {{/if}}
 
 See the security issue register ({{#each securityIssueRegisterRefs}}{{#unless @first}}{{#unless @last}}, {{/unless}}{{/unless}}{{#if @last}}{{#unless @first}} and {{/unless}}{{/if}}{{#xref}}"cardKey": "{{this.key}}"{{/xref}}{{/each}}) for a complete list of security issues in this project.
+
+{{#createLinks}}
+  "buttonLabel": "Link security issues that affect the entire product",
+  "linkType": "ismsa/linkTypes/presentsRisk",
+  "direction": "outbound",
+  "cardKey": "{{../cardKey}}",
+  "query": {{#quoted}}
+result(X) :- secdeva_closestProject({{{../cardKey}}}, Project), secdeva_closestProject(X, Project), base_projectCardType(X, "secdeva/cardTypes/securityIssue").
+select(1, "results", "title").
+select(1, "results", "cardType").
+order(1, "results", 1, "title", "ASC").
+{{/quoted}}
+{{/createLinks}}
 
 {{#createCards}}
     "template": "secdeva/templates/securityIssue",

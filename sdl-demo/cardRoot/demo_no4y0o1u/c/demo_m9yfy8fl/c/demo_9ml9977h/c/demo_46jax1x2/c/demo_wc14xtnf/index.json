@@ -1,0 +1,14 @@
+{
+    "title": "Patent risks",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|e",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "No known patent claims against SQLite. The technology has been in very wide commercial deployment for over two decades without patent litigation, which we accept as sufficient evidence.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_patent-risks",
+    "templateCardKey": "secdeva_urtu0vr2",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

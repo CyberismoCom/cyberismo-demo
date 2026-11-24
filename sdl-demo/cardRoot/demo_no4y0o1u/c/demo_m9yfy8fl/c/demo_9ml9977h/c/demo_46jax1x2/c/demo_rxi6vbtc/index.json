@@ -1,0 +1,14 @@
+{
+    "title": "Long-term viability",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|s",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The project has a stated long-term support horizon extending well beyond the supported lifetime of this product, a small but stable maintainer group, and funded commercial support available if we ever need it. Because the code is public domain and self-contained, we could maintain our pinned version ourselves as a fallback.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_long-term-viability",
+    "templateCardKey": "secdeva_c60pmt1o",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

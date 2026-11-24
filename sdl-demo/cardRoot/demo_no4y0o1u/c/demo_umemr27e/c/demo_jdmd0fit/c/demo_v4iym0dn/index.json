@@ -1,0 +1,13 @@
+{
+    "rank": "0|f",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Principle of least privilege",
+    "templateCardKey": "secdeva_snducpb8",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_principle-of-least-privilege",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The admin web app backend runs as its own user, and only it can write the configuration data. The runtime data handler can only read the configuration."
+}

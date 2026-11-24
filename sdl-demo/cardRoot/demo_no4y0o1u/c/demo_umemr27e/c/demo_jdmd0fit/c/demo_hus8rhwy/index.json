@@ -1,0 +1,12 @@
+{
+    "rank": "0|k",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "No single points of failure",
+    "templateCardKey": "secdeva_py6s01x0",
+    "base/fieldTypes/checklistResult": "open",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_no-single-points-of-failure",
+    "lastUpdated": "2026-11-24T11:10:00.000Z"
+}

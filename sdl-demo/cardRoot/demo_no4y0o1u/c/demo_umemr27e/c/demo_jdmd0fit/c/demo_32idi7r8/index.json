@@ -1,0 +1,13 @@
+{
+    "rank": "0|c",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Design of risk mitigations",
+    "templateCardKey": "secdeva_awgagsuu",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_design-of-risk-mitigations",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "A rate limit on the DCS polls mitigates the risk \"Compromising the availability of customer DCS\". The fix of the security issue \"Excessive retries to the DCS\" is still open."
+}

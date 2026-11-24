@@ -1,0 +1,14 @@
+{
+    "title": "Secure implementation",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|n",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "No open vulnerabilities in the pinned version at the time of assessment. The historical CVEs are overwhelmingly reachable only when untrusted SQL or untrusted database files are processed. Neither applies here: the device executes only our own statements, and the database file is created and written by the device itself. The residual concern is a malformed database file after flash corruption, which is handled by validating and rebuilding the store on open failure.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_secure-implementation",
+    "templateCardKey": "secdeva_aszde5e6",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

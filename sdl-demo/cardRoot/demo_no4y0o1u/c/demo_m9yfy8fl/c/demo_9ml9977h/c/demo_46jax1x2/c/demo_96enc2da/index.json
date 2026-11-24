@@ -1,0 +1,14 @@
+{
+    "title": "No overlapping technologies",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|j",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "No other database or embedded store is present in the firmware. The telemetry buffer uses a flat file rather than a second store, and the intention is to migrate it onto SQLite rather than introduce a different technology.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_no-overlapping-technologies",
+    "templateCardKey": "secdeva_ocumdiyp",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

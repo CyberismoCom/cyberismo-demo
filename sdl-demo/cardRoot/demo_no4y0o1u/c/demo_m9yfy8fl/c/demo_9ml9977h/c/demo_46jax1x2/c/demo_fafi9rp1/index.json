@@ -1,0 +1,14 @@
+{
+    "title": "Existing usage",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|i",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "One of the most widely deployed software components in existence, including in safety-adjacent embedded products. Already in use in our previous product generation for the same purpose.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_existing-usage",
+    "templateCardKey": "secdeva_lsd2gomy",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

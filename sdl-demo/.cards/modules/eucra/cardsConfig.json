@@ -1,5 +1,5 @@
 {
-    "schemaVersion": 5,
+    "schemaVersion": 7,
     "cardKeyPrefix": "eucra",
     "name": "EU Cyber Resilience Act Essentials",
     "description": "Essentials templates and internal controls for the team-level work that is required for EU CRA compliance",

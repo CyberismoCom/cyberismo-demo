@@ -1,0 +1,14 @@
+{
+    "title": "Business goals",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|c",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "No licence cost and no per-device fee. Writing our own transactional configuration store was estimated at several weeks plus indefinite maintenance, against days of integration for SQLite. Performance is far beyond what a configuration store needs: the whole configuration is a few hundred rows read at start-up.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_business-goals",
+    "templateCardKey": "secdeva_tqoe1272",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

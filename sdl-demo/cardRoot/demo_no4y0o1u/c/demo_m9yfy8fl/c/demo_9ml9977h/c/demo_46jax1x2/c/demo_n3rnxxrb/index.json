@@ -1,0 +1,14 @@
+{
+    "title": "Support and maintenance",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|t",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "No support contract is purchased; we self-support. The responsible architect is the nominated maintenance owner for this component: keeping the pinned version current, tracking advisories, and deciding when a SQLite fix warrants an out-of-cycle firmware release.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_support-and-maintenance",
+    "templateCardKey": "secdeva_qdmo4c68",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}
