@@ -1,0 +1,14 @@
+{
+    "title": "Security documentation",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|o",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The project documents its security posture, its recommended compile-time options for untrusted input, and its testing approach. We follow the recommended build options and record the enabled set in the build configuration.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_security-documentation",
+    "templateCardKey": "secdeva_ldmi7kpy",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

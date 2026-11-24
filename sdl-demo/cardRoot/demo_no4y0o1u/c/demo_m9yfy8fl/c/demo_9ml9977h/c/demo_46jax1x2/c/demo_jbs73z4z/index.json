@@ -1,0 +1,14 @@
+{
+    "title": "Competencies",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|l",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The team has used SQLite in the previous product generation. The one area needing care is correct use of prepared statements, which is covered by the coding guideline and checked in code review and by static analysis.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_competencies",
+    "templateCardKey": "secdeva_c6o6qmas",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

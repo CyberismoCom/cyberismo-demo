@@ -1,0 +1,35 @@
+== Introduction
+
+This page documents the results of a security design review.
+
+== Product overview
+
+This security design review concerns the following:
+
+The beta version of the IoT device: the firmware with the runtime data handler, the admin web app backend, and the Ethernet and USB interfaces. The cloud data platform is not in the scope of this review.
+
+== Review checklist
+
+Set the result of each item in the table. A Deviation or Not applicable result needs a comment. Put links to the evidence in the comment.
+
+The checklist has two parts:
+
+* The first three items check that the design addresses the security requirements and the threats.
+* The other items check that the design follows secure design best practices. These apply to all features, not only to security features.
+
+{{#report}}
+  "name": "base/reports/checklist"
+{{/report}}
+
+You can add your own items to the checklist.
+
+{{#createCards}}
+  "template": "base/templates/checklistItem",
+  "buttonLabel": "Add a checklist item"
+{{/createCards}}
+
+== Security issues
+
+{{#report}}
+  "name": "secdeva/reports/reportSecurityIssue"
+{{/report}}

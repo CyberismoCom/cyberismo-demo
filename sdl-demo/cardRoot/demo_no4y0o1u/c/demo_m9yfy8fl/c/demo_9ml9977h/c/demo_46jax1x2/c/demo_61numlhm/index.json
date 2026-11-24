@@ -1,0 +1,14 @@
+{
+    "title": "Security context",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|m",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "See the linked security context document. SQLite is a local, in-process store with no network listener, so it adds nothing to the device's attack surface from the plant network. It does not encrypt data at rest; since the device is installed in a semi-private environment where physical access is not restricted to trusted personnel, confidentiality of the configuration at rest is handled at the application layer, where secrets are stored encrypted rather than in plaintext columns.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_security-context",
+    "templateCardKey": "secdeva_c90b3i38",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

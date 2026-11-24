@@ -1,0 +1,14 @@
+{
+    "title": "Security updates",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|p",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The project releases regularly and publishes fixes promptly. Because SQLite is statically linked into the firmware, shipping a SQLite fix requires a firmware release; our release cadence is compatible with this and the obligation is covered by the security update management plan.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_security-updates",
+    "templateCardKey": "secdeva_4x2a6syz",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

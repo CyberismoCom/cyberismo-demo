@@ -1,0 +1,13 @@
+{
+    "rank": "0|j",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Proven design",
+    "templateCardKey": "secdeva_fo0lkh86",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_proven-design",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "TLS 1.3 from the platform SDK, and SQLite for the configuration data (see the technology assessment of SQLite). No own cryptography."
+}

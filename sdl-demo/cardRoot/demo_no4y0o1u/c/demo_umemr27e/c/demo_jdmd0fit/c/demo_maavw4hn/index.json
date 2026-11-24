@@ -1,0 +1,13 @@
+{
+    "rank": "0|b",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Design of security requirements",
+    "templateCardKey": "secdeva_t43gej9m",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_design-of-security-requirements",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The design of the runtime data handler has an allow list of outbound connections. It covers the requirement \"Limit outbound communications\"."
+}

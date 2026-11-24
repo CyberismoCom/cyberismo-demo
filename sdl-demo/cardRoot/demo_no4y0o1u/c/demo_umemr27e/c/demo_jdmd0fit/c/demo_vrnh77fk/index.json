@@ -1,0 +1,13 @@
+{
+    "rank": "0|h",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Attack surface reduction",
+    "templateCardKey": "secdeva_2zm9wv19",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_attack-surface-reduction",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "Only two interfaces are enabled: Ethernet for the plant network and the data platform, and USB for local service. Unused services are removed from the firmware image."
+}

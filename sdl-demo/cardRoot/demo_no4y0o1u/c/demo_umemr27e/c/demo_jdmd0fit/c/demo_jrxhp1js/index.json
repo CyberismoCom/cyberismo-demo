@@ -1,0 +1,13 @@
+{
+    "rank": "0|l",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Sufficient capacity",
+    "templateCardKey": "secdeva_zysk975m",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_sufficient-capacity",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "Load test with ten times the expected number of tags passed. The device limits the rate of DCS polls."
+}

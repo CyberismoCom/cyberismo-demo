@@ -1,0 +1,14 @@
+{
+    "title": "Architect approval",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|h",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "Approved by the responsible architect, who is the owner of this document.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_architect-approval",
+    "templateCardKey": "secdeva_e59f2obc",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

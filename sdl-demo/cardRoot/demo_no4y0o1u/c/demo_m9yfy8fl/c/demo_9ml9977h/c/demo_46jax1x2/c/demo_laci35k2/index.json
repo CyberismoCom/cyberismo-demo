@@ -1,0 +1,14 @@
+{
+    "title": "Quality track record",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|r",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The project's own test suite provides very high branch coverage and includes extensive fault injection for out-of-memory, I/O error and crash-during-write conditions — which is precisely the failure class we care about, since plant power loss during a configuration write is a realistic event. On top of that, we test our own configuration repository against power-cut scenarios in the integration test set.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_quality-track-record",
+    "templateCardKey": "secdeva_3ktzjyap",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

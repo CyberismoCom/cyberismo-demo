@@ -1,0 +1,13 @@
+{
+    "rank": "0|i",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Minimisation of data",
+    "templateCardKey": "secdeva_jizkygaa",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_minimisation-of-data",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The device sends only the process values that the customer selects for reporting. It does not collect personal data."
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Users",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|f",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "The store is internal to the device and is not exposed to users. The SQLite file format is a documented, long-term stable format, which helps our own support engineers when they need to inspect a configuration from a returned device.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_users",
+    "templateCardKey": "secdeva_e8dfufx3",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

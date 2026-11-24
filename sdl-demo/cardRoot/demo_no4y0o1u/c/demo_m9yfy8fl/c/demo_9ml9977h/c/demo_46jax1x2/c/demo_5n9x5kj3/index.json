@@ -1,0 +1,14 @@
+{
+    "title": "No lock-in",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|k",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "Access goes through our own configuration repository interface rather than SQLite calls scattered through the codebase, so the store can be replaced behind that interface. The on-disk format is documented and the data is exportable as SQL text.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_no-lock-in",
+    "templateCardKey": "secdeva_jxkgvkq6",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

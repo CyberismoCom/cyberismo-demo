@@ -1,0 +1,14 @@
+{
+    "title": "Capabilities",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|g",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "Required capabilities are atomic transactional writes, crash resilience on unexpected power loss, and a small flash and memory footprint. SQLite meets all three. Write-ahead logging is enabled, which matters because plant power is not conditioned at every installation.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_capabilities",
+    "templateCardKey": "secdeva_oru2sdq6",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}

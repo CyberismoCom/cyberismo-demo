@@ -1,0 +1,13 @@
+{
+    "rank": "0|g",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Defence in depth",
+    "templateCardKey": "secdeva_srohygh9",
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_defence-in-depth",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The admin web app backend needs authentication and TLS. The customer installs the device in a segmented OT network. Secrets in the configuration data are encrypted in the application."
+}

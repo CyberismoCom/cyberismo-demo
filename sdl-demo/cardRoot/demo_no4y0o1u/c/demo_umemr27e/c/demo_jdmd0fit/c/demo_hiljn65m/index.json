@@ -1,0 +1,13 @@
+{
+    "rank": "0|m",
+    "workflowState": "Active",
+    "createdAt": "2026-11-24T11:03:55.648Z",
+    "links": [],
+    "cardType": "base/cardTypes/checklistItem",
+    "title": "Removing debug features",
+    "templateCardKey": "secdeva_e210i8fd",
+    "base/fieldTypes/checklistResult": "deviation",
+    "base/fieldTypes/identifier": "secdeva_check_security-design_removing-debug-features",
+    "lastUpdated": "2026-11-24T11:10:00.000Z",
+    "base/fieldTypes/comment": "The USB service console is still enabled in the beta firmware. Disable it in the release builds before the first customer delivery."
+}

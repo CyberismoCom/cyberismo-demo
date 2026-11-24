@@ -1,0 +1,14 @@
+{
+    "title": "Security-related notifications",
+    "cardType": "base/cardTypes/checklistItem",
+    "workflowState": "Active",
+    "rank": "0|q",
+    "links": [],
+    "base/fieldTypes/checklistResult": "ok",
+    "base/fieldTypes/comment": "Monitored through the project's own announcement channel and through NVD alerts on the CPE recorded in the fields of this card. This component is included in the third party vulnerability monitoring list, so the monitoring is a named responsibility rather than an intention.",
+    "base/fieldTypes/identifier": "secdeva_check_technology_security-related-notifications",
+    "templateCardKey": "secdeva_t36o97of",
+    "createdAt": "2026-11-24T10:00:00.000Z",
+    "lastTransitioned": "2026-11-24T10:00:00.000Z",
+    "lastUpdated": "2026-11-24T10:00:00.000Z"
+}
